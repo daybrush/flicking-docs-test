@@ -1,6 +1,6 @@
 # FreeControl
 
-> A [Control](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Control.md) that can be scrolled freely without alignment
+> A [Control](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Control.md) that can be scrolled freely without alignment
 
 ## Constructor
 
@@ -28,7 +28,7 @@ Make scroll animation to stop at the start/end of the scroll area, not going out
 moveToPosition(position: number, duration: number, axesEvent?: OnRelease): Promise<void>
 ```
 
-Move [Camera](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Camera.md) to the given position
+Move [Camera](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Camera.md) to the given position
 
 **Parameters:**
 
@@ -44,11 +44,11 @@ Move [Camera](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/C
 
 **Throws:**
 
-- [MovementErrors](https://cjw783.github.io/flicking-docs-test/llm-docs/api/types/MovementErrors.md)
+- [MovementErrors](https://daybrush.github.io/flicking-docs-test/llm-docs/api/types/MovementErrors.md)
 
 **Fires:**
 
-- [MovementEvents](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/MovementEvents.md)
+- [MovementEvents](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/MovementEvents.md)
 
 ### updatePosition
 
@@ -66,4 +66,4 @@ Update position after resizing
 
 **Throws:**
 
-- [InitializationErrors](https://cjw783.github.io/flicking-docs-test/llm-docs/api/types/InitializationErrors.md)
+- [InitializationErrors](https://daybrush.github.io/flicking-docs-test/llm-docs/api/types/InitializationErrors.md)

@@ -4,7 +4,7 @@
 
 **See Also:**
 
-- [Demo: Arrow](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/plugins/arrow.md)
+- [Demo: Arrow](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/plugins/arrow.md)
 
 ## Constructor
 
@@ -80,19 +80,19 @@ CSS selector for the "previous" arrow element
 
 **Type:** `ArrowOptions["disabledClass"]`
 
-Current value of the [disabledClass](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Arrow.md#disabledclass) option.
+Current value of the [disabledClass](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Arrow.md#disabledclass) option.
 
 ### moveByViewportSize
 
 **Type:** `ArrowOptions["moveByViewportSize"]`
 
-Current value of the [moveByViewportSize](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Arrow.md#movebyviewportsize) option.
+Current value of the [moveByViewportSize](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Arrow.md#movebyviewportsize) option.
 
 ### moveCount
 
 **Type:** `ArrowOptions["moveCount"]`
 
-Current value of the [moveCount](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Arrow.md#movecount) option.
+Current value of the [moveCount](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Arrow.md#movecount) option.
 
 ### nextEl
 
@@ -106,13 +106,13 @@ The "next" arrow HTMLElement
 
 **Type:** `ArrowOptions["nextElSelector"]`
 
-Current value of the [nextElSelector](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Arrow.md#nextelselector) option.
+Current value of the [nextElSelector](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Arrow.md#nextelselector) option.
 
 ### parentEl
 
 **Type:** `ArrowOptions["parentEl"]`
 
-Current value of the [parentEl](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Arrow.md#parentel) option.
+Current value of the [parentEl](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Arrow.md#parentel) option.
 
 ### prevEl
 
@@ -126,7 +126,7 @@ The "previous" arrow HTMLElement
 
 **Type:** `ArrowOptions["prevElSelector"]`
 
-Current value of the [prevElSelector](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Arrow.md#prevelselector) option.
+Current value of the [prevElSelector](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Arrow.md#prevelselector) option.
 
 ## Methods
 

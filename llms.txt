@@ -6,100 +6,100 @@ Flicking is a production-ready carousel/slider with comprehensive API, event sys
 
 ## Getting Started
 
-- [Quick Start](https://cjw783.github.io/flicking-docs-test/llm-docs/guide/quickstart.md): Installation and basic setup for vanilla JS, React, and Vue3
-- [HTML Structure & Styling](https://cjw783.github.io/flicking-docs-test/llm-docs/guide/structure-and-styling.md): Required DOM structure (`.flicking-viewport` > `.flicking-camera` > panels) and CSS classes
-- [Controlling Flicking](https://cjw783.github.io/flicking-docs-test/llm-docs/guide/controlling-flicking.md): Programmatic control — `next()`, `prev()`, `moveTo()`, `index`, `currentPanel`
-- [Common Option Recipes](https://cjw783.github.io/flicking-docs-test/llm-docs/guide/option-recipes.md): Practical configuration patterns for common use cases
+- [Quick Start](https://daybrush.github.io/flicking-docs-test/llm-docs/guide/quickstart.md): Installation and basic setup for vanilla JS, React, and Vue3
+- [HTML Structure & Styling](https://daybrush.github.io/flicking-docs-test/llm-docs/guide/structure-and-styling.md): Required DOM structure (`.flicking-viewport` > `.flicking-camera` > panels) and CSS classes
+- [Controlling Flicking](https://daybrush.github.io/flicking-docs-test/llm-docs/guide/controlling-flicking.md): Programmatic control — `next()`, `prev()`, `moveTo()`, `index`, `currentPanel`
+- [Common Option Recipes](https://daybrush.github.io/flicking-docs-test/llm-docs/guide/option-recipes.md): Practical configuration patterns for common use cases
 
 ## Framework Guides
 
-- [React Guide](https://cjw783.github.io/flicking-docs-test/llm-docs/guide/react-guide.md): `@egjs/react-flicking` — `<Flicking>`, `<ViewportSlot>`, event props, panel update patterns
-- [Vue3 Guide](https://cjw783.github.io/flicking-docs-test/llm-docs/guide/vue3-guide.md): `@egjs/vue3-flicking` — Composition API, `v-for` panels, reactive options
+- [React Guide](https://daybrush.github.io/flicking-docs-test/llm-docs/guide/react-guide.md): `@egjs/react-flicking` — `<Flicking>`, `<ViewportSlot>`, event props, panel update patterns
+- [Vue3 Guide](https://daybrush.github.io/flicking-docs-test/llm-docs/guide/vue3-guide.md): `@egjs/vue3-flicking` — Composition API, `v-for` panels, reactive options
 
 ## Plugins
 
 All plugins are imported from `@egjs/flicking-plugins`. Pass plugin instances to the `plugins` option.
 
-- [AutoPlay demo](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/plugins/autoplay.md): Automatic panel cycling — `new AutoPlay({ duration, direction, stopOnHover })`
-- [Fade demo](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/plugins/fade.md): Crossfade transition effect — `new Fade()`
-- [Parallax demo](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/plugins/parallax.md): Parallax scrolling on panel contents — `new Parallax()`
-- [Arrow demo](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/plugins/arrow.md): Prev/next arrow buttons — `new Arrow()`
-- [Pagination demo](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/plugins/pagination.md): Dot/fraction/scroll pagination — `new Pagination({ type })`
-- [Perspective demo](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/plugins/perspective.md): 3D perspective effect — `new Perspective()`
-- [Sync demo](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/plugins/sync.md): Synchronize multiple Flicking instances — `new Sync({ type, synchronizedFlickingOptions })`
+- [AutoPlay demo](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/plugins/autoplay.md): Automatic panel cycling — `new AutoPlay({ duration, direction, stopOnHover })`
+- [Fade demo](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/plugins/fade.md): Crossfade transition effect — `new Fade()`
+- [Parallax demo](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/plugins/parallax.md): Parallax scrolling on panel contents — `new Parallax()`
+- [Arrow demo](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/plugins/arrow.md): Prev/next arrow buttons — `new Arrow()`
+- [Pagination demo](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/plugins/pagination.md): Dot/fraction/scroll pagination — `new Pagination({ type })`
+- [Perspective demo](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/plugins/perspective.md): 3D perspective effect — `new Perspective()`
+- [Sync demo](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/plugins/sync.md): Synchronize multiple Flicking instances — `new Sync({ type, synchronizedFlickingOptions })`
 
 ## Key Options Reference
 
-- [FlickingOptions](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md): All configuration options with descriptions and demo links
+- [FlickingOptions](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md): All configuration options with descriptions and demo links
 - Important options: `circular` (loop mode), `align` (PREV/CENTER/NEXT or px/%), `moveType` (snap/freeScroll), `bound`, `panelsPerView`, `autoResize`, `duration`, `easing`, `defaultIndex`, `threshold`, `inputType`
 - **Option constraints**: `circular: true` and `bound: true` cannot be used together. `circular` requires enough panels to fill the viewport.
 
 ## API Essentials
 
-- [Flicking class](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md): Main carousel class — constructor, properties (`index`, `currentPanel`, `panels`, `camera`), methods (`next`, `prev`, `moveTo`, `addPlugins`, `resize`, `destroy`)
-- [FlickingOptions](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md): All init options with types and defaults
-- [FlickingEvents](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingEvents.md): Event names and payload types (`ready`, `moveStart`, `move`, `moveEnd`, `changed`, `willChange`, `select`, `needPanel`, `reachEdge`, `visibleChange`)
-- [FlickingErrors](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingErrors.md): Error codes and messages — use `err.code` to identify error type
+- [Flicking class](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md): Main carousel class — constructor, properties (`index`, `currentPanel`, `panels`, `camera`), methods (`next`, `prev`, `moveTo`, `addPlugins`, `resize`, `destroy`)
+- [FlickingOptions](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md): All init options with types and defaults
+- [FlickingEvents](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingEvents.md): Event names and payload types (`ready`, `moveStart`, `move`, `moveEnd`, `changed`, `willChange`, `select`, `needPanel`, `reachEdge`, `visibleChange`)
+- [FlickingErrors](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingErrors.md): Error codes and messages — use `err.code` to identify error type
 
 ## Demos
 
 **Basic options:**
-- [Alignment](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/alignment.md): `align` option — PREV, CENTER, NEXT, or custom offset
-- [Circular mode](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/circular.md): Infinite loop with `circular: true`
-- [Movement types](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/movement-types.md): `moveType: "snap"` vs `moveType: "freeScroll"`
-- [Bound](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/bound.md): Edge resistance with `bound: true`
-- [Panels per view](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/panels-per-view.md): Multiple visible panels
-- [Vertical](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/vertical.md): Vertical scrolling carousel
+- [Alignment](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/alignment.md): `align` option — PREV, CENTER, NEXT, or custom offset
+- [Circular mode](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/circular.md): Infinite loop with `circular: true`
+- [Movement types](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/movement-types.md): `moveType: "snap"` vs `moveType: "freeScroll"`
+- [Bound](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/bound.md): Edge resistance with `bound: true`
+- [Panels per view](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/panels-per-view.md): Multiple visible panels
+- [Vertical](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/vertical.md): Vertical scrolling carousel
 
 **Advanced patterns:**
-- [Add/Remove panels](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/advanced/add-remove.md): Dynamic panel manipulation
-- [Virtual scroll](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/advanced/virtual-scroll.md): Large datasets with `virtualEnabled`
-- [Infinite scroll](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/advanced/infinite-scroll.md): `needPanel` event for data fetching
-- [Prev/Next buttons](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/reactive/prev-next.md): Custom navigation buttons using Reactive API
-- [Progress bar](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/reactive/progress-bar.md): Scroll progress indicator using Reactive API
-- [Lazy load](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/advanced/lazy-load.md): Deferred image/content loading
-- [Carousel](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/advanced/carousel.md): Multi-panel carousel layout
-- [Coverflow](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/reactive/coverflow.md): iTunes-style coverflow effect using Reactive API
-- [Cross Flicking](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/advanced/cross-flicking.md): Nested horizontal + vertical Flicking
+- [Add/Remove panels](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/advanced/add-remove.md): Dynamic panel manipulation
+- [Virtual scroll](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/advanced/virtual-scroll.md): Large datasets with `virtualEnabled`
+- [Infinite scroll](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/advanced/infinite-scroll.md): `needPanel` event for data fetching
+- [Prev/Next buttons](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/reactive/prev-next.md): Custom navigation buttons using Reactive API
+- [Progress bar](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/reactive/progress-bar.md): Scroll progress indicator using Reactive API
+- [Lazy load](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/advanced/lazy-load.md): Deferred image/content loading
+- [Carousel](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/advanced/carousel.md): Multi-panel carousel layout
+- [Coverflow](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/reactive/coverflow.md): iTunes-style coverflow effect using Reactive API
+- [Cross Flicking](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/advanced/cross-flicking.md): Nested horizontal + vertical Flicking
 
 ## Optional
 
 ### Advanced API Reference
 
-- [Panel](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md): Panel instance — `index`, `element`, `size`, `position`, `progress`
-- [Camera](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Camera.md): Viewport and position management
-- [Control](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Control.md): Base input control
-- [SnapControl](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/SnapControl.md): Snap-to-panel behavior
-- [FreeControl](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/FreeControl.md): Free-scroll behavior
-- [StrictControl](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/StrictControl.md): Strict one-panel-at-a-time control
-- [VirtualManager](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/VirtualManager.md): Virtual panel management
-- [CrossFlicking](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/CrossFlicking.md): Bidirectional nested carousel
-- [FlickingError](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/FlickingError.md): Error class with `code` property
-- [BoundCameraMode](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/BoundCameraMode.md): Camera mode for bounded movement
-- [CircularCameraMode](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/CircularCameraMode.md): Camera mode for circular/loop
-- [LinearCameraMode](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/LinearCameraMode.md): Camera mode for linear movement
+- [Panel](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md): Panel instance — `index`, `element`, `size`, `position`, `progress`
+- [Camera](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Camera.md): Viewport and position management
+- [Control](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Control.md): Base input control
+- [SnapControl](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/SnapControl.md): Snap-to-panel behavior
+- [FreeControl](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/FreeControl.md): Free-scroll behavior
+- [StrictControl](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/StrictControl.md): Strict one-panel-at-a-time control
+- [VirtualManager](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/VirtualManager.md): Virtual panel management
+- [CrossFlicking](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/CrossFlicking.md): Bidirectional nested carousel
+- [FlickingError](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/FlickingError.md): Error class with `code` property
+- [BoundCameraMode](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/BoundCameraMode.md): Camera mode for bounded movement
+- [CircularCameraMode](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/CircularCameraMode.md): Camera mode for circular/loop
+- [LinearCameraMode](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/LinearCameraMode.md): Camera mode for linear movement
 
 ### Event Interfaces
 
-- [ChangedEvent](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/ChangedEvent.md): Panel change complete
-- [WillChangeEvent](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/WillChangeEvent.md): Before panel change
-- [MoveStartEvent](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/MoveStartEvent.md): Movement start
-- [MoveEvent](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/MoveEvent.md): Movement in progress
-- [MoveEndEvent](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/MoveEndEvent.md): Movement end
-- [HoldStartEvent](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/HoldStartEvent.md): User touch/mouse down
-- [HoldEndEvent](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/HoldEndEvent.md): User touch/mouse up
-- [NeedPanelEvent](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/NeedPanelEvent.md): Triggered when more panels are needed (infinite scroll)
-- [SelectEvent](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/SelectEvent.md): Panel click/tap
-- [VisibleChangeEvent](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/VisibleChangeEvent.md): Visible panels changed
-- [ReachEdgeEvent](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/ReachEdgeEvent.md): Reached first or last panel
+- [ChangedEvent](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/ChangedEvent.md): Panel change complete
+- [WillChangeEvent](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/WillChangeEvent.md): Before panel change
+- [MoveStartEvent](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/MoveStartEvent.md): Movement start
+- [MoveEvent](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/MoveEvent.md): Movement in progress
+- [MoveEndEvent](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/MoveEndEvent.md): Movement end
+- [HoldStartEvent](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/HoldStartEvent.md): User touch/mouse down
+- [HoldEndEvent](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/HoldEndEvent.md): User touch/mouse up
+- [NeedPanelEvent](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/NeedPanelEvent.md): Triggered when more panels are needed (infinite scroll)
+- [SelectEvent](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/SelectEvent.md): Panel click/tap
+- [VisibleChangeEvent](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/VisibleChangeEvent.md): Visible panels changed
+- [ReachEdgeEvent](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/ReachEdgeEvent.md): Reached first or last panel
 
 ### Constants
 
-- [ALIGN](https://cjw783.github.io/flicking-docs-test/llm-docs/api/variables/ALIGN.md): `"prev"` | `"center"` | `"next"`
-- [MOVE_TYPE](https://cjw783.github.io/flicking-docs-test/llm-docs/api/variables/MOVE_TYPE.md): `"snap"` | `"freeScroll"`
-- [DIRECTION](https://cjw783.github.io/flicking-docs-test/llm-docs/api/variables/DIRECTION.md): `"PREV"` | `"NEXT"`
-- [EVENTS](https://cjw783.github.io/flicking-docs-test/llm-docs/api/variables/EVENTS.md): All event name string constants
-- [CODE](https://cjw783.github.io/flicking-docs-test/llm-docs/api/variables/CODE.md): All error code constants
+- [ALIGN](https://daybrush.github.io/flicking-docs-test/llm-docs/api/variables/ALIGN.md): `"prev"` | `"center"` | `"next"`
+- [MOVE_TYPE](https://daybrush.github.io/flicking-docs-test/llm-docs/api/variables/MOVE_TYPE.md): `"snap"` | `"freeScroll"`
+- [DIRECTION](https://daybrush.github.io/flicking-docs-test/llm-docs/api/variables/DIRECTION.md): `"PREV"` | `"NEXT"`
+- [EVENTS](https://daybrush.github.io/flicking-docs-test/llm-docs/api/variables/EVENTS.md): All event name string constants
+- [CODE](https://daybrush.github.io/flicking-docs-test/llm-docs/api/variables/CODE.md): All error code constants
 
 ### Packages
 

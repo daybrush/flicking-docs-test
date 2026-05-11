@@ -4,7 +4,7 @@
 
 ## Description
 
-These errors can occur when creating a new Flicking instance or calling [init](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#init).
+These errors can occur when creating a new Flicking instance or calling [init](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#init).
 
 Common scenarios:
 

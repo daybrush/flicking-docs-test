@@ -1,6 +1,6 @@
 # Bound
 
-The [`bound`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bound) option restricts the camera from going beyond the first and last panel boundaries. It can be used together with the [`bounce`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bounce) option to control the elastic effect at the boundaries.
+The [`bound`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bound) option restricts the camera from going beyond the first and last panel boundaries. It can be used together with the [`bounce`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bounce) option to control the elastic effect at the boundaries.
 
 
 
@@ -10,8 +10,8 @@ The [`bound`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interface
 
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
-| [`bound`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bound) | `boolean` | `false` | Enable boundary restriction |
-| [`bounce`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bounce) | `number \| string \| [number \| string, number \| string]` | `"20%"` | Bounce area size |
+| [`bound`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bound) | `boolean` | `false` | Enable boundary restriction |
+| [`bounce`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bounce) | `number \| string \| [number \| string, number \| string]` | `"20%"` | Bounce area size |
 
 ### Comparison by Value
 
@@ -61,12 +61,12 @@ If the bounce value is too large, users may be confused about whether they have 
 ## Related Links
 
 ### Related Options
-- [`circular`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circular): Infinite loop mode (mutually exclusive with bound)
-- [`moveType`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#movetype): Movement behavior mode (freeScroll + bound combination recommended)
+- [`circular`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circular): Infinite loop mode (mutually exclusive with bound)
+- [`moveType`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#movetype): Movement behavior mode (freeScroll + bound combination recommended)
 
 ### Related Demos
-- [Circular](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/circular.md): Infinite loop mode
-- [Movement Types](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/movement-types.md): freeScroll + bound combination
+- [Circular](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/circular.md): Infinite loop mode
+- [Movement Types](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/movement-types.md): freeScroll + bound combination
 
 ## Code
 

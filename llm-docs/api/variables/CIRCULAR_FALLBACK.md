@@ -1,6 +1,6 @@
 # CIRCULAR_FALLBACK
 
-> An object with all possible [circularFallback](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#circularfallback)s
+> An object with all possible [circularFallback](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#circularfallback)s
 
 ## Type
 

@@ -250,12 +250,12 @@ const {
 
 | Property | Type | Description |
 |----------|------|-------------|
-| [`currentPanelIndex`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveState.md#currentpanelindex) | `number` | Index of the currently active panel |
-| [`totalPanelCount`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveState.md#totalpanelcount) | `number` | Total number of panels |
-| [`progress`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveState.md#progress) | `number` | Overall scroll progress as a percentage (0-100) |
-| [`indexProgress`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveState.md#indexprogress) | `number` | Camera position as a fractional panel index (e.g., `2.5` means halfway between panel 2 and 3) |
-| [`isReachStart`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveState.md#isreachstart) | `boolean` | Whether the first panel is currently active |
-| [`isReachEnd`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveState.md#isreachend) | `boolean` | Whether the last panel is currently active |
+| [`currentPanelIndex`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveState.md#currentpanelindex) | `number` | Index of the currently active panel |
+| [`totalPanelCount`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveState.md#totalpanelcount) | `number` | Total number of panels |
+| [`progress`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveState.md#progress) | `number` | Overall scroll progress as a percentage (0-100) |
+| [`indexProgress`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveState.md#indexprogress) | `number` | Camera position as a fractional panel index (e.g., `2.5` means halfway between panel 2 and 3) |
+| [`isReachStart`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveState.md#isreachstart) | `boolean` | Whether the first panel is currently active |
+| [`isReachEnd`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveState.md#isreachend) | `boolean` | Whether the last panel is currently active |
 
 > **Tip: progress vs indexProgress**
 - **`progress`** is best for continuous indicators like progress bars. It ranges from 0 to 100 and works well with `moveType: "freeScroll"`.
@@ -265,7 +265,7 @@ const {
 
 | Method | Type | Description |
 |--------|------|-------------|
-| [`moveTo`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveMethod.md#moveto) | `(index: number) => Promise<void>` | Move to a specific panel by index. Ignores calls while animating. |
+| [`moveTo`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveMethod.md#moveto) | `(index: number) => Promise<void>` | Move to a specific panel by index. Ignores calls while animating. |
 
 ---
 
@@ -309,12 +309,12 @@ const { currentPanelIndex } = useFlickingReactiveAPI(flickingRef, {
 
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
-| [`defaultIndex`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveAPIOptions.md#defaultindex) | `number` | `0` | Initial panel index. Also affects `isReachStart`, `isReachEnd`, and `indexProgress` initial values. |
-| [`totalPanelCount`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveAPIOptions.md#totalpanelcount) | `number` | `0` | Initial panel count. Prevents layout shifts when pagination UI depends on this value. |
+| [`defaultIndex`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveAPIOptions.md#defaultindex) | `number` | `0` | Initial panel index. Also affects `isReachStart`, `isReachEnd`, and `indexProgress` initial values. |
+| [`totalPanelCount`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveAPIOptions.md#totalpanelcount) | `number` | `0` | Initial panel count. Prevents layout shifts when pagination UI depends on this value. |
 
 ---
 
 ## Next Steps
 
-- **[Demos](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/reactive/progress-bar.md)**: See Reactive API in action with interactive examples
-- **[API Reference](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveState.md)**: Full type definitions and property details
+- **[Demos](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/reactive/progress-bar.md)**: See Reactive API in action with interactive examples
+- **[API Reference](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveState.md)**: Full type definitions and property details

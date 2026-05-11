@@ -1,6 +1,6 @@
 # GetStatusParams
 
-> Parameters for [getStatus](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#getstatus)
+> Parameters for [getStatus](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#getstatus)
 
 ## Properties
 
@@ -28,7 +28,7 @@ Include current panel index
 
 **Type:** `boolean`
 
-Include camera position. Only works when [moveType](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#movetype) is `freeScroll`
+Include camera position. Only works when [moveType](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#movetype) is `freeScroll`
 
 **Default:** `true`
 

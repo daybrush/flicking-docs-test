@@ -1,6 +1,6 @@
 # Alignment
 
-The [`align`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#align) option controls the alignment position of panels within the viewport. It determines whether panels are positioned at the left, center, or right.
+The [`align`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#align) option controls the alignment position of panels within the viewport. It determines whether panels are positioned at the left, center, or right.
 
 
 
@@ -10,7 +10,7 @@ The [`align`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interface
 
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
-| [`align`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#align) | `"prev" \| "center" \| "next" \| number \| string` | `"center"` | Panel alignment position |
+| [`align`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#align) | `"prev" \| "center" \| "next" \| number \| string` | `"center"` | Panel alignment position |
 
 ### Comparison by Value
 
@@ -57,12 +57,12 @@ The end point (right or bottom) of the panel aligns to the end point of the view
 ## Related Links
 
 ### Related Options
-- [`panelsPerView`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#panelsperview): Number of panels per screen (affects alignment calculation)
-- [`circular`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circular): Circular mode
+- [`panelsPerView`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#panelsperview): Number of panels per screen (affects alignment calculation)
+- [`circular`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circular): Circular mode
 
 ### Related Demos
-- [Circular](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/circular.md): Circular mode with alignment combination
-- [Panels Per View](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/panels-per-view.md): Multi-panel display with alignment
+- [Circular](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/circular.md): Circular mode with alignment combination
+- [Panels Per View](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/panels-per-view.md): Multi-panel display with alignment
 
 ## Code
 

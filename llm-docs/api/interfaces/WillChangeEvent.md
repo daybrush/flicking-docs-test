@@ -4,7 +4,7 @@
 
 ## Description
 
-Index will be [changed](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/ChangedEvent.md) at the changed event. It can be triggered when user finished input, or flicking start to move by method. Calling `stop()` in event will prevent index change and camera movement.
+Index will be [changed](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/ChangedEvent.md) at the changed event. It can be triggered when user finished input, or flicking start to move by method. Calling `stop()` in event will prevent index change and camera movement.
 
 ## Properties
 
@@ -34,4 +34,4 @@ New active panel
 
 ## See Also
 
-- [ChangedEvent](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/ChangedEvent.md) - Fired AFTER the panel change completes
+- [ChangedEvent](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/ChangedEvent.md) - Fired AFTER the panel change completes

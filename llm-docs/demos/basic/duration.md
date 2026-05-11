@@ -1,6 +1,6 @@
 # Duration
 
-The [`duration`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#duration) option sets the duration of the panel snap animation in milliseconds.
+The [`duration`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#duration) option sets the duration of the panel snap animation in milliseconds.
 
 
 
@@ -10,7 +10,7 @@ The [`duration`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interf
 
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
-| [`duration`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#duration) | `number` | `500` | Animation duration (ms) |
+| [`duration`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#duration) | `number` | `500` | Animation duration (ms) |
 
 ### Comparison by Value
 
@@ -55,12 +55,12 @@ A duration over 1 second may make users feel like they are waiting. Unless inten
 ## Related Links
 
 ### Related Options
-- [`easing`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#easing): Animation curve
-- [`moveType`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#movetype): Movement behavior mode
+- [`easing`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#easing): Animation curve
+- [`moveType`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#movetype): Movement behavior mode
 
 ### Related Demos
-- [Easing](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/easing.md): Adjusting the animation curve
-- [Movement Types](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/movement-types.md): Movement behavior modes
+- [Easing](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/easing.md): Adjusting the animation curve
+- [Movement Types](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/movement-types.md): Movement behavior modes
 
 ## Code
 

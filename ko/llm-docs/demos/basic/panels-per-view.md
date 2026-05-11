@@ -1,6 +1,6 @@
 # Panels Per View
 
-The [`panelsPerView`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#panelsperview) option specifies the number of panels to simultaneously display in the viewport. When a positive value is set, panel sizes are automatically adjusted.
+The [`panelsPerView`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#panelsperview) option specifies the number of panels to simultaneously display in the viewport. When a positive value is set, panel sizes are automatically adjusted.
 
 
 
@@ -10,8 +10,8 @@ The [`panelsPerView`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/i
 
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
-| [`panelsPerView`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#panelsperview) | `number` | `-1` | Number of panels to display in viewport (-1: no auto-calculation) |
-| [`noPanelStyleOverride`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#nopanelstyleoverride) | `boolean` | `false` | Disable automatic panel size adjustment |
+| [`panelsPerView`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#panelsperview) | `number` | `-1` | Number of panels to display in viewport (-1: no auto-calculation) |
+| [`noPanelStyleOverride`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#nopanelstyleoverride) | `boolean` | `false` | Disable automatic panel size adjustment |
 
 ### Comparison by Value
 
@@ -68,13 +68,13 @@ To use the `virtual` option, you must set `panelsPerView > 0`. Virtual does not 
 ## Related Links
 
 ### Related Options
-- [`noPanelStyleOverride`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#nopanelstyleoverride): Prevent automatic panel style modification
-- [`virtual`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#virtual): Virtual scrolling (requires panelsPerView)
-- [`align`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#align): Panel alignment method
+- [`noPanelStyleOverride`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#nopanelstyleoverride): Prevent automatic panel style modification
+- [`virtual`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#virtual): Virtual scrolling (requires panelsPerView)
+- [`align`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#align): Panel alignment method
 
 ### Related Demos
-- [Virtual Scroll](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/advanced/virtual-scroll.md): Large panel optimization (requires panelsPerView)
-- [Alignment](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/alignment.md): Alignment options
+- [Virtual Scroll](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/advanced/virtual-scroll.md): Large panel optimization (requires panelsPerView)
+- [Alignment](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/alignment.md): Alignment options
 
 ## Code
 

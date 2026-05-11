@@ -1,6 +1,6 @@
 # Threshold
 
-The [`threshold`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#threshold) option sets the minimum drag distance in pixels required for panel transition. Dragging less than this value will return to the original panel.
+The [`threshold`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#threshold) option sets the minimum drag distance in pixels required for panel transition. Dragging less than this value will return to the original panel.
 
 
 
@@ -10,7 +10,7 @@ The [`threshold`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/inter
 
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
-| [`threshold`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#threshold) | `number` | `40` | Minimum drag distance for panel transition (px) |
+| [`threshold`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#threshold) | `number` | `40` | Minimum drag distance for panel transition (px) |
 
 ### Comparison by Value
 
@@ -58,11 +58,11 @@ If the threshold is too high, users may feel that swiping is not working. Genera
 ## Related Links
 
 ### Related Options
-- [`moveType`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#movetype): Movement behavior mode (important when used with strict)
-- [`dragThreshold`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#dragthreshold): Minimum distance for drag recognition
+- [`moveType`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#movetype): Movement behavior mode (important when used with strict)
+- [`dragThreshold`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#dragthreshold): Minimum distance for drag recognition
 
 ### Related Demos
-- [Movement Types](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/movement-types.md): Using threshold in strict mode
+- [Movement Types](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/movement-types.md): Using threshold in strict mode
 
 ## Code
 

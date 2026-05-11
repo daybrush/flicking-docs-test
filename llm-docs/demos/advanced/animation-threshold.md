@@ -1,6 +1,6 @@
 # Animation Threshold
 
-Use the [`animationThreshold`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#animationthreshold) option to set the minimum movement distance (px) to trigger an animation. If the movement distance is less than this value, the panel moves instantly without animation.
+Use the [`animationThreshold`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#animationthreshold) option to set the minimum movement distance (px) to trigger an animation. If the movement distance is less than this value, the panel moves instantly without animation.
 
 Try moving panels with the Prev/Next buttons and compare the event logs and animation behavior.
 
@@ -12,7 +12,7 @@ Try moving panels with the Prev/Next buttons and compare the event logs and anim
 
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
-| [`animationThreshold`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#animationthreshold) | `number` | `0.5` | Minimum movement distance to trigger animation (px) |
+| [`animationThreshold`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#animationthreshold) | `number` | `0.5` | Minimum movement distance to trigger animation (px) |
 
 ### Value Comparison
 
@@ -61,12 +61,12 @@ If animation is skipped due to `animationThreshold`, the `willChange` event may 
 ## Related Links
 
 ### Related Options
-- [`duration`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#duration): Animation duration
-- [`easing`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#easing): Animation easing curve
+- [`duration`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#duration): Animation duration
+- [`easing`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#easing): Animation easing curve
 
 ### Related Demos
-- [Duration](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/duration.md): Animation duration setting
-- [Interruptable](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/interruptable.md): Input handling during animation
+- [Duration](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/duration.md): Animation duration setting
+- [Interruptable](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/interruptable.md): Input handling during animation
 
 ## Code
 

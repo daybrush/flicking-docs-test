@@ -1,6 +1,6 @@
 # Movement Types
 
-The [`moveType`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#movetype) option controls panel movement and snap behavior. Three modes are available: snap, freeScroll, and strict.
+The [`moveType`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#movetype) option controls panel movement and snap behavior. Three modes are available: snap, freeScroll, and strict.
 
 
 
@@ -10,7 +10,7 @@ The [`moveType`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interf
 
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
-| [`moveType`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#movetype) | `"snap" \| "freeScroll" \| "strict" \| object` | `"snap"` | Movement behavior mode |
+| [`moveType`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#movetype) | `"snap" \| "freeScroll" \| "strict" \| object` | `"snap"` | Movement behavior mode |
 
 ### Comparison by Value
 
@@ -64,14 +64,14 @@ Moves exactly one panel per flick. No matter how fast you drag, only one panel m
 ## Related Links
 
 ### Related Options
-- [`bound`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bound): Boundary restriction (recommended with freeScroll)
-- [`threshold`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#threshold): Minimum drag distance for panel transition
-- [`duration`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#duration): Animation duration
+- [`bound`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bound): Boundary restriction (recommended with freeScroll)
+- [`threshold`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#threshold): Minimum drag distance for panel transition
+- [`duration`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#duration): Animation duration
 
 ### Related Demos
-- [Alignment](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/alignment.md): Panel alignment
-- [Bound](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/bound.md): Boundary restriction mode
-- [Threshold](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/threshold.md): Drag threshold
+- [Alignment](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/alignment.md): Panel alignment
+- [Bound](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/bound.md): Boundary restriction mode
+- [Threshold](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/threshold.md): Drag threshold
 
 ## Code
 

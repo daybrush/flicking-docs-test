@@ -32,7 +32,7 @@ Constructs a new instance of the `Control` class
 
 **Type:** `number`
 
-Index number of the [currentPanel](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#currentpanel)
+Index number of the [currentPanel](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#currentpanel)
 
 **Default:** `0`
 
@@ -116,11 +116,11 @@ Initialize Control
 
 **Parameters:**
 
-- `flicking` (`Flicking`) - An instance of [Flicking](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md)
+- `flicking` (`Flicking`) - An instance of [Flicking](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md)
 
 **Returns:** The current instance for method chaining
 
-**Remarks:** This method is called automatically during [init](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#init). It initializes the internal controller.
+**Remarks:** This method is called automatically during [init](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#init). It initializes the internal controller.
 
 ### moveToPanel
 
@@ -128,7 +128,7 @@ Initialize Control
 moveToPanel(panel: Panel, { duration, direction, axesEvent }: MoveToPanelParams): Promise<void>
 ```
 
-Move [Camera](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Camera.md) to the given panel
+Move [Camera](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Camera.md) to the given panel
 
 **Parameters:**
 
@@ -140,11 +140,11 @@ Move [Camera](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/C
 
 **Throws:**
 
-- [MovementErrors](https://cjw783.github.io/flicking-docs-test/llm-docs/api/types/MovementErrors.md)
+- [MovementErrors](https://daybrush.github.io/flicking-docs-test/llm-docs/api/types/MovementErrors.md)
 
 **Fires:**
 
-- [MovementEvents](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/MovementEvents.md)
+- [MovementEvents](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/MovementEvents.md)
 
 ### moveToPosition
 
@@ -152,7 +152,7 @@ Move [Camera](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/C
 abstract moveToPosition(position: number, duration: number, axesEvent?: OnRelease): Promise<void>
 ```
 
-Move [Camera](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Camera.md) to the given position
+Move [Camera](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Camera.md) to the given position
 
 **Parameters:**
 
@@ -166,11 +166,11 @@ Move [Camera](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/C
 
 **Throws:**
 
-- [MovementErrors](https://cjw783.github.io/flicking-docs-test/llm-docs/api/types/MovementErrors.md)
+- [MovementErrors](https://daybrush.github.io/flicking-docs-test/llm-docs/api/types/MovementErrors.md)
 
 **Fires:**
 
-- [MovementEvents](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/MovementEvents.md)
+- [MovementEvents](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/MovementEvents.md)
 
 ### release
 
@@ -190,7 +190,7 @@ Releases ongoing user input (mouse/touch)
 resetActive(): this
 ```
 
-Reset [activePanel](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Control.md#activepanel) to `null`
+Reset [activePanel](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Control.md#activepanel) to `null`
 
 **Returns:** The current instance for method chaining
 
@@ -222,7 +222,7 @@ Change the destination and duration of the animation currently playing
 
 - `duration` (`number`) - Duration of the animation (unit: ms)
 
-- `direction` (`ValueOf<typeof DIRECTION>`) - Direction to move, only available in the [circular](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#circular) mode
+- `direction` (`ValueOf<typeof DIRECTION>`) - Direction to move, only available in the [circular](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#circular) mode
 
 **Returns:** The current instance for method chaining
 
@@ -230,7 +230,7 @@ Change the destination and duration of the animation currently playing
 
 **Throws:**
 
-- [AnimationUpdateErrors](https://cjw783.github.io/flicking-docs-test/llm-docs/api/types/AnimationUpdateErrors.md)
+- [AnimationUpdateErrors](https://daybrush.github.io/flicking-docs-test/llm-docs/api/types/AnimationUpdateErrors.md)
 
 ### updateInput
 
@@ -238,7 +238,7 @@ Change the destination and duration of the animation currently playing
 updateInput(): this
 ```
 
-Update [controller](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Control.md#controller)'s state
+Update [controller](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Control.md#controller)'s state
 
 **Returns:** The current instance for method chaining
 
@@ -260,4 +260,4 @@ Update position after resizing
 
 **Throws:**
 
-- [InitializationErrors](https://cjw783.github.io/flicking-docs-test/llm-docs/api/types/InitializationErrors.md)
+- [InitializationErrors](https://daybrush.github.io/flicking-docs-test/llm-docs/api/types/InitializationErrors.md)

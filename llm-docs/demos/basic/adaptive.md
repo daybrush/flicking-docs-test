@@ -1,6 +1,6 @@
 # Adaptive
 
-The [`adaptive`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#adaptive) option automatically adjusts the viewport height to match the active panel's height after a panel transition. This is useful for carousels with content of varying heights.
+The [`adaptive`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#adaptive) option automatically adjusts the viewport height to match the active panel's height after a panel transition. This is useful for carousels with content of varying heights.
 
 
 
@@ -10,7 +10,7 @@ The [`adaptive`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interf
 
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
-| [`adaptive`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#adaptive) | `boolean` | `false` | Automatically adjust viewport height to match the active panel |
+| [`adaptive`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#adaptive) | `boolean` | `false` | Automatically adjust viewport height to match the active panel |
 
 ### Comparison by Value
 
@@ -51,10 +51,10 @@ If heights vary significantly, layout shift may occur as content below gets push
 ## Related Links
 
 ### Related Options
-- [`horizontal`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#horizontal): Horizontal/vertical direction (adaptive is horizontal only)
+- [`horizontal`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#horizontal): Horizontal/vertical direction (adaptive is horizontal only)
 
 ### Related Demos
-- [Vertical](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/vertical.md): Vertical mode (adaptive not supported)
+- [Vertical](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/vertical.md): Vertical mode (adaptive not supported)
 
 ## Code
 

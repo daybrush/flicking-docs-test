@@ -41,8 +41,8 @@ flicking.addPlugins(new Perspective({ rotate: -1, scale: 2, perspective: 600 }))
 ## Related Links
 
 ### Related Demos
-- [Coverflow](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/reactive/coverflow.md): 3D effect based on Reactive API
-- [Parallax](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/plugins/parallax.md): Parallax scroll effect
+- [Coverflow](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/reactive/coverflow.md): 3D effect based on Reactive API
+- [Parallax](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/plugins/parallax.md): Parallax scroll effect
 
 ## Code
 

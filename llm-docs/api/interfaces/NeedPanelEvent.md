@@ -4,7 +4,7 @@
 
 ## Description
 
-You can set its threshold with [needPanelThreshold](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#needpanelthreshold)
+You can set its threshold with [needPanelThreshold](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#needpanelthreshold)
 
 ## Properties
 
@@ -12,4 +12,4 @@ You can set its threshold with [needPanelThreshold](https://cjw783.github.io/fli
 
 **Type:** `Exclude<ValueOf<typeof DIRECTION>, null>`
 
-Direction where new panel is needed. `DIRECTION.PREV` means panels should be [prepend](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#prepend)ed and `DIRECTION.NEXT` means panels should be [append](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#append)ed
+Direction where new panel is needed. `DIRECTION.PREV` means panels should be [prepend](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#prepend)ed and `DIRECTION.NEXT` means panels should be [append](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#append)ed

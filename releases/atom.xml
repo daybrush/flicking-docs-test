@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://cjw783.github.io/flicking-docs-test/releases</id>
+    <id>https://daybrush.github.io/flicking-docs-test/releases</id>
     <title>Flicking Blog</title>
     <updated>2025-11-25T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://cjw783.github.io/flicking-docs-test/releases"/>
+    <link rel="alternate" href="https://daybrush.github.io/flicking-docs-test/releases"/>
     <subtitle>Flicking Blog</subtitle>
-    <icon>https://cjw783.github.io/flicking-docs-test/img/favicon.ico</icon>
+    <icon>https://daybrush.github.io/flicking-docs-test/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[4.15.0]]></title>
-        <id>https://cjw783.github.io/flicking-docs-test/releases/2025/11/25/release-4.15.0</id>
-        <link href="https://cjw783.github.io/flicking-docs-test/releases/2025/11/25/release-4.15.0"/>
+        <id>https://daybrush.github.io/flicking-docs-test/releases/2025/11/25/release-4.15.0</id>
+        <link href="https://daybrush.github.io/flicking-docs-test/releases/2025/11/25/release-4.15.0"/>
         <updated>2025-11-25T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[What's Changed]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="whats-changed">What's Changed<a href="https://cjw783.github.io/flicking-docs-test/releases/2025/11/25/release-4.15.0#whats-changed" class="hash-link" aria-label="Direct link to What's Changed" title="Direct link to What's Changed" translate="no">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="whats-changed">What's Changed<a href="https://daybrush.github.io/flicking-docs-test/releases/2025/11/25/release-4.15.0#whats-changed" class="hash-link" aria-label="Direct link to What's Changed" title="Direct link to What's Changed" translate="no">​</a></h2>
 <ul>
 <li class="">feat: add animationThreshold, useCSSOrder option by @daybrush in <a href="https://github.com/naver/egjs-flicking/pull/938" target="_blank" rel="noopener noreferrer" class="">https://github.com/naver/egjs-flicking/pull/938</a></li>
 </ul>
@@ -22,11 +22,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[4.14.1]]></title>
-        <id>https://cjw783.github.io/flicking-docs-test/releases/2025/10/02/release-4.14.1</id>
-        <link href="https://cjw783.github.io/flicking-docs-test/releases/2025/10/02/release-4.14.1"/>
+        <id>https://daybrush.github.io/flicking-docs-test/releases/2025/10/02/release-4.14.1</id>
+        <link href="https://daybrush.github.io/flicking-docs-test/releases/2025/10/02/release-4.14.1"/>
         <updated>2025-10-02T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[What's Changed]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="whats-changed">What's Changed<a href="https://cjw783.github.io/flicking-docs-test/releases/2025/10/02/release-4.14.1#whats-changed" class="hash-link" aria-label="Direct link to What's Changed" title="Direct link to What's Changed" translate="no">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="whats-changed">What's Changed<a href="https://daybrush.github.io/flicking-docs-test/releases/2025/10/02/release-4.14.1#whats-changed" class="hash-link" aria-label="Direct link to What's Changed" title="Direct link to What's Changed" translate="no">​</a></h2>
 <ul>
 <li class="">fix: remove findDOMNode in react-flicking by @malangfox in <a href="https://github.com/naver/egjs-flicking/pull/931" target="_blank" rel="noopener noreferrer" class="">https://github.com/naver/egjs-flicking/pull/931</a></li>
 <li class="">fix: add virtualEnabled check in react-flicking by @malangfox in <a href="https://github.com/naver/egjs-flicking/pull/934" target="_blank" rel="noopener noreferrer" class="">https://github.com/naver/egjs-flicking/pull/934</a></li>
@@ -37,55 +37,55 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[4.14.0]]></title>
-        <id>https://cjw783.github.io/flicking-docs-test/releases/2025/06/30/release-4.14.0</id>
-        <link href="https://cjw783.github.io/flicking-docs-test/releases/2025/06/30/release-4.14.0"/>
+        <id>https://daybrush.github.io/flicking-docs-test/releases/2025/06/30/release-4.14.0</id>
+        <link href="https://daybrush.github.io/flicking-docs-test/releases/2025/06/30/release-4.14.0"/>
         <updated>2025-06-30T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[What's Changed]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="whats-changed">What's Changed<a href="https://cjw783.github.io/flicking-docs-test/releases/2025/06/30/release-4.14.0#whats-changed" class="hash-link" aria-label="Direct link to What's Changed" title="Direct link to What's Changed" translate="no">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="whats-changed">What's Changed<a href="https://daybrush.github.io/flicking-docs-test/releases/2025/06/30/release-4.14.0#whats-changed" class="hash-link" aria-label="Direct link to What's Changed" title="Direct link to What's Changed" translate="no">​</a></h2>
 <ul>
 <li class="">docs: add docs sample by @daybrush in <a href="https://github.com/naver/egjs-flicking/pull/924" target="_blank" rel="noopener noreferrer" class="">https://github.com/naver/egjs-flicking/pull/924</a></li>
-<li class="">Feat/state api by @cjw783 in <a href="https://github.com/naver/egjs-flicking/pull/923" target="_blank" rel="noopener noreferrer" class="">https://github.com/naver/egjs-flicking/pull/923</a></li>
+<li class="">Feat/state api by @daybrush in <a href="https://github.com/naver/egjs-flicking/pull/923" target="_blank" rel="noopener noreferrer" class="">https://github.com/naver/egjs-flicking/pull/923</a></li>
 <li class="">fix: fix change folder, name by @daybrush in <a href="https://github.com/naver/egjs-flicking/pull/926" target="_blank" rel="noopener noreferrer" class="">https://github.com/naver/egjs-flicking/pull/926</a></li>
 <li class="">docs: add 2 demo by @daybrush in <a href="https://github.com/naver/egjs-flicking/pull/928" target="_blank" rel="noopener noreferrer" class="">https://github.com/naver/egjs-flicking/pull/928</a></li>
 <li class="">fix: panel flashes when using virtual option in react by @malangfox in <a href="https://github.com/naver/egjs-flicking/pull/916" target="_blank" rel="noopener noreferrer" class="">https://github.com/naver/egjs-flicking/pull/916</a></li>
-<li class="">Docs/reactive api by @cjw783 in <a href="https://github.com/naver/egjs-flicking/pull/927" target="_blank" rel="noopener noreferrer" class="">https://github.com/naver/egjs-flicking/pull/927</a></li>
+<li class="">Docs/reactive api by @daybrush in <a href="https://github.com/naver/egjs-flicking/pull/927" target="_blank" rel="noopener noreferrer" class="">https://github.com/naver/egjs-flicking/pull/927</a></li>
 </ul>]]></content>
         <category label="release" term="release"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[4.13.1]]></title>
-        <id>https://cjw783.github.io/flicking-docs-test/releases/2025/05/16/release-4.13.1</id>
-        <link href="https://cjw783.github.io/flicking-docs-test/releases/2025/05/16/release-4.13.1"/>
+        <id>https://daybrush.github.io/flicking-docs-test/releases/2025/05/16/release-4.13.1</id>
+        <link href="https://daybrush.github.io/flicking-docs-test/releases/2025/05/16/release-4.13.1"/>
         <updated>2025-05-16T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[What's Changed]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="whats-changed">What's Changed<a href="https://cjw783.github.io/flicking-docs-test/releases/2025/05/16/release-4.13.1#whats-changed" class="hash-link" aria-label="Direct link to What's Changed" title="Direct link to What's Changed" translate="no">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="whats-changed">What's Changed<a href="https://daybrush.github.io/flicking-docs-test/releases/2025/05/16/release-4.13.1#whats-changed" class="hash-link" aria-label="Direct link to What's Changed" title="Direct link to What's Changed" translate="no">​</a></h2>
 <ul>
 <li class="">docs: add sample codes to plugins by @malangfox in <a href="https://github.com/naver/egjs-flicking/pull/904" target="_blank" rel="noopener noreferrer" class="">https://github.com/naver/egjs-flicking/pull/904</a></li>
 <li class="">fix: check other props for react state change by @malangfox in <a href="https://github.com/naver/egjs-flicking/pull/906" target="_blank" rel="noopener noreferrer" class="">https://github.com/naver/egjs-flicking/pull/906</a></li>
 <li class="">add preventDefaultOnDrag to quickstart's example by @Ronkiro in <a href="https://github.com/naver/egjs-flicking/pull/896" target="_blank" rel="noopener noreferrer" class="">https://github.com/naver/egjs-flicking/pull/896</a></li>
 <li class="">feat: add resizeObservePanel option by @malangfox in <a href="https://github.com/naver/egjs-flicking/pull/884" target="_blank" rel="noopener noreferrer" class="">https://github.com/naver/egjs-flicking/pull/884</a></li>
-<li class="">Fix/resize logic by @cjw783 in <a href="https://github.com/naver/egjs-flicking/pull/918" target="_blank" rel="noopener noreferrer" class="">https://github.com/naver/egjs-flicking/pull/918</a></li>
+<li class="">Fix/resize logic by @daybrush in <a href="https://github.com/naver/egjs-flicking/pull/918" target="_blank" rel="noopener noreferrer" class="">https://github.com/naver/egjs-flicking/pull/918</a></li>
 <li class="">refactor: change resizePanelObserve to observePanelResize by @malangfox in <a href="https://github.com/naver/egjs-flicking/pull/919" target="_blank" rel="noopener noreferrer" class="">https://github.com/naver/egjs-flicking/pull/919</a></li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="new-contributors">New Contributors<a href="https://cjw783.github.io/flicking-docs-test/releases/2025/05/16/release-4.13.1#new-contributors" class="hash-link" aria-label="Direct link to New Contributors" title="Direct link to New Contributors" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="new-contributors">New Contributors<a href="https://daybrush.github.io/flicking-docs-test/releases/2025/05/16/release-4.13.1#new-contributors" class="hash-link" aria-label="Direct link to New Contributors" title="Direct link to New Contributors" translate="no">​</a></h2>
 <ul>
 <li class="">@Ronkiro made their first contribution in <a href="https://github.com/naver/egjs-flicking/pull/896" target="_blank" rel="noopener noreferrer" class="">https://github.com/naver/egjs-flicking/pull/896</a></li>
-<li class="">@cjw783 made their first contribution in <a href="https://github.com/naver/egjs-flicking/pull/918" target="_blank" rel="noopener noreferrer" class="">https://github.com/naver/egjs-flicking/pull/918</a></li>
+<li class="">@daybrush made their first contribution in <a href="https://github.com/naver/egjs-flicking/pull/918" target="_blank" rel="noopener noreferrer" class="">https://github.com/naver/egjs-flicking/pull/918</a></li>
 </ul>
 <p><strong>Full Changelog</strong>: <a href="https://github.com/naver/egjs-flicking/compare/4.12.0...4.13.1" target="_blank" rel="noopener noreferrer" class="">https://github.com/naver/egjs-flicking/compare/4.12.0...4.13.1</a></p>]]></content>
         <category label="release" term="release"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[4.12.0]]></title>
-        <id>https://cjw783.github.io/flicking-docs-test/releases/2024/12/06/release-4.12.0</id>
-        <link href="https://cjw783.github.io/flicking-docs-test/releases/2024/12/06/release-4.12.0"/>
+        <id>https://daybrush.github.io/flicking-docs-test/releases/2024/12/06/release-4.12.0</id>
+        <link href="https://daybrush.github.io/flicking-docs-test/releases/2024/12/06/release-4.12.0"/>
         <updated>2024-12-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[New Feature]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="new-feature">New Feature<a href="https://cjw783.github.io/flicking-docs-test/releases/2024/12/06/release-4.12.0#new-feature" class="hash-link" aria-label="Direct link to New Feature" title="Direct link to New Feature" translate="no">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="new-feature">New Feature<a href="https://daybrush.github.io/flicking-docs-test/releases/2024/12/06/release-4.12.0#new-feature" class="hash-link" aria-label="Direct link to New Feature" title="Direct link to New Feature" translate="no">​</a></h2>
 <ul>
 <li class="">Added a new preset <a href="https://naver.github.io/egjs-flicking/ko/Presets" target="_blank" rel="noopener noreferrer" class="">CrossFlicking</a> (#901)</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="bug-fix">Bug Fix<a href="https://cjw783.github.io/flicking-docs-test/releases/2024/12/06/release-4.12.0#bug-fix" class="hash-link" aria-label="Direct link to Bug Fix" title="Direct link to Bug Fix" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="bug-fix">Bug Fix<a href="https://daybrush.github.io/flicking-docs-test/releases/2024/12/06/release-4.12.0#bug-fix" class="hash-link" aria-label="Direct link to Bug Fix" title="Direct link to Bug Fix" translate="no">​</a></h2>
 <ul>
 <li class="">Fixed an error where the initial Panel is set to the last Panel when <code>display: none</code> is applied to the viewport. (#903)</li>
 </ul>]]></content>
@@ -93,11 +93,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[4.11.4]]></title>
-        <id>https://cjw783.github.io/flicking-docs-test/releases/2024/08/01/release-4.11.4</id>
-        <link href="https://cjw783.github.io/flicking-docs-test/releases/2024/08/01/release-4.11.4"/>
+        <id>https://daybrush.github.io/flicking-docs-test/releases/2024/08/01/release-4.11.4</id>
+        <link href="https://daybrush.github.io/flicking-docs-test/releases/2024/08/01/release-4.11.4"/>
         <updated>2024-08-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Bug Fix]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="bug-fix">Bug Fix<a href="https://cjw783.github.io/flicking-docs-test/releases/2024/08/01/release-4.11.4#bug-fix" class="hash-link" aria-label="Direct link to Bug Fix" title="Direct link to Bug Fix" translate="no">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="bug-fix">Bug Fix<a href="https://daybrush.github.io/flicking-docs-test/releases/2024/08/01/release-4.11.4#bug-fix" class="hash-link" aria-label="Direct link to Bug Fix" title="Direct link to Bug Fix" translate="no">​</a></h2>
 <ul>
 <li class="">Fixed an error that disabled flicking blocks native scroll.</li>
 </ul>]]></content>
@@ -105,11 +105,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[4.11.3]]></title>
-        <id>https://cjw783.github.io/flicking-docs-test/releases/2024/05/31/release-4.11.3</id>
-        <link href="https://cjw783.github.io/flicking-docs-test/releases/2024/05/31/release-4.11.3"/>
+        <id>https://daybrush.github.io/flicking-docs-test/releases/2024/05/31/release-4.11.3</id>
+        <link href="https://daybrush.github.io/flicking-docs-test/releases/2024/05/31/release-4.11.3"/>
         <updated>2024-05-31T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Bug Fix]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="bug-fix">Bug Fix<a href="https://cjw783.github.io/flicking-docs-test/releases/2024/05/31/release-4.11.3#bug-fix" class="hash-link" aria-label="Direct link to Bug Fix" title="Direct link to Bug Fix" translate="no">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="bug-fix">Bug Fix<a href="https://daybrush.github.io/flicking-docs-test/releases/2024/05/31/release-4.11.3#bug-fix" class="hash-link" aria-label="Direct link to Bug Fix" title="Direct link to Bug Fix" translate="no">​</a></h2>
 <ul>
 <li class="">Fixed an error when <code>destroy()</code> is called immediately after <code>resize()</code> (#859)</li>
 <li class="">Fixed a bug that events return the wrong direction on circular Flicking (#854)</li>
@@ -120,11 +120,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[4.11.2]]></title>
-        <id>https://cjw783.github.io/flicking-docs-test/releases/2023/12/20/release-4.11.2</id>
-        <link href="https://cjw783.github.io/flicking-docs-test/releases/2023/12/20/release-4.11.2"/>
+        <id>https://daybrush.github.io/flicking-docs-test/releases/2023/12/20/release-4.11.2</id>
+        <link href="https://daybrush.github.io/flicking-docs-test/releases/2023/12/20/release-4.11.2"/>
         <updated>2023-12-20T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Bug Fix]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="bug-fix">Bug Fix<a href="https://cjw783.github.io/flicking-docs-test/releases/2023/12/20/release-4.11.2#bug-fix" class="hash-link" aria-label="Direct link to Bug Fix" title="Direct link to Bug Fix" translate="no">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="bug-fix">Bug Fix<a href="https://daybrush.github.io/flicking-docs-test/releases/2023/12/20/release-4.11.2#bug-fix" class="hash-link" aria-label="Direct link to Bug Fix" title="Direct link to Bug Fix" translate="no">​</a></h2>
 <ul>
 <li class="">fixed a bug that strict movetype moving wrong panel on circular flicking (#842)</li>
 </ul>]]></content>
@@ -132,11 +132,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[4.11.1]]></title>
-        <id>https://cjw783.github.io/flicking-docs-test/releases/2023/11/17/release-4.11.1</id>
-        <link href="https://cjw783.github.io/flicking-docs-test/releases/2023/11/17/release-4.11.1"/>
+        <id>https://daybrush.github.io/flicking-docs-test/releases/2023/11/17/release-4.11.1</id>
+        <link href="https://daybrush.github.io/flicking-docs-test/releases/2023/11/17/release-4.11.1"/>
         <updated>2023-11-17T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Bug Fix]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="bug-fix">Bug Fix<a href="https://cjw783.github.io/flicking-docs-test/releases/2023/11/17/release-4.11.1#bug-fix" class="hash-link" aria-label="Direct link to Bug Fix" title="Direct link to Bug Fix" translate="no">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="bug-fix">Bug Fix<a href="https://daybrush.github.io/flicking-docs-test/releases/2023/11/17/release-4.11.1#bug-fix" class="hash-link" aria-label="Direct link to Bug Fix" title="Direct link to Bug Fix" translate="no">​</a></h2>
 <ul>
 <li class="">Fixed a bug that nan occurs when calculating the size if element does not exist. (#833)</li>
 <li class="">Fixed a bug that layout is broken when <code>direction: rtl</code> is applied to camera element. (#836)</li>
@@ -145,11 +145,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[4.11.0]]></title>
-        <id>https://cjw783.github.io/flicking-docs-test/releases/2023/08/02/release-4.11.0</id>
-        <link href="https://cjw783.github.io/flicking-docs-test/releases/2023/08/02/release-4.11.0"/>
+        <id>https://daybrush.github.io/flicking-docs-test/releases/2023/08/02/release-4.11.0</id>
+        <link href="https://daybrush.github.io/flicking-docs-test/releases/2023/08/02/release-4.11.0"/>
         <updated>2023-08-02T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[New Feature]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="new-feature">New Feature<a href="https://cjw783.github.io/flicking-docs-test/releases/2023/08/02/release-4.11.0#new-feature" class="hash-link" aria-label="Direct link to New Feature" title="Direct link to New Feature" translate="no">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="new-feature">New Feature<a href="https://daybrush.github.io/flicking-docs-test/releases/2023/08/02/release-4.11.0#new-feature" class="hash-link" aria-label="Direct link to New Feature" title="Direct link to New Feature" translate="no">​</a></h2>
 <ul>
 <li class="">Added a new option <code>preventDefaultOnDrag</code> (#820)</li>
 </ul>]]></content>
@@ -157,11 +157,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[4.10.8]]></title>
-        <id>https://cjw783.github.io/flicking-docs-test/releases/2023/06/22/release-4.10.8</id>
-        <link href="https://cjw783.github.io/flicking-docs-test/releases/2023/06/22/release-4.10.8"/>
+        <id>https://daybrush.github.io/flicking-docs-test/releases/2023/06/22/release-4.10.8</id>
+        <link href="https://daybrush.github.io/flicking-docs-test/releases/2023/06/22/release-4.10.8"/>
         <updated>2023-06-22T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Bug Fix]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="bug-fix">Bug Fix<a href="https://cjw783.github.io/flicking-docs-test/releases/2023/06/22/release-4.10.8#bug-fix" class="hash-link" aria-label="Direct link to Bug Fix" title="Direct link to Bug Fix" translate="no">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="bug-fix">Bug Fix<a href="https://daybrush.github.io/flicking-docs-test/releases/2023/06/22/release-4.10.8#bug-fix" class="hash-link" aria-label="Direct link to Bug Fix" title="Direct link to Bug Fix" translate="no">​</a></h2>
 <ul>
 <li class="">Fixed a bug that mouse input not working when mouse and touch input were available at the same time. (<a href="https://github.com/naver/egjs-axes/pull/213" target="_blank" rel="noopener noreferrer" class="">https://github.com/naver/egjs-axes/pull/213</a>)</li>
 </ul>]]></content>
@@ -169,11 +169,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[4.10.7]]></title>
-        <id>https://cjw783.github.io/flicking-docs-test/releases/2023/04/12/release-4.10.7</id>
-        <link href="https://cjw783.github.io/flicking-docs-test/releases/2023/04/12/release-4.10.7"/>
+        <id>https://daybrush.github.io/flicking-docs-test/releases/2023/04/12/release-4.10.7</id>
+        <link href="https://daybrush.github.io/flicking-docs-test/releases/2023/04/12/release-4.10.7"/>
         <updated>2023-04-12T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Bug Fix]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="bug-fix">Bug Fix<a href="https://cjw783.github.io/flicking-docs-test/releases/2023/04/12/release-4.10.7#bug-fix" class="hash-link" aria-label="Direct link to Bug Fix" title="Direct link to Bug Fix" translate="no">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="bug-fix">Bug Fix<a href="https://daybrush.github.io/flicking-docs-test/releases/2023/04/12/release-4.10.7#bug-fix" class="hash-link" aria-label="Direct link to Bug Fix" title="Direct link to Bug Fix" translate="no">​</a></h2>
 <ul>
 <li class="">Fixed a bug that <code>setStatus</code> not working properly when <code>index</code> is 0 (#795)</li>
 </ul>]]></content>
@@ -181,11 +181,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[4.10.6]]></title>
-        <id>https://cjw783.github.io/flicking-docs-test/releases/2023/02/13/release-4.10.6</id>
-        <link href="https://cjw783.github.io/flicking-docs-test/releases/2023/02/13/release-4.10.6"/>
+        <id>https://daybrush.github.io/flicking-docs-test/releases/2023/02/13/release-4.10.6</id>
+        <link href="https://daybrush.github.io/flicking-docs-test/releases/2023/02/13/release-4.10.6"/>
         <updated>2023-02-13T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Bug Fix]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="bug-fix">Bug Fix<a href="https://cjw783.github.io/flicking-docs-test/releases/2023/02/13/release-4.10.6#bug-fix" class="hash-link" aria-label="Direct link to Bug Fix" title="Direct link to Bug Fix" translate="no">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="bug-fix">Bug Fix<a href="https://daybrush.github.io/flicking-docs-test/releases/2023/02/13/release-4.10.6#bug-fix" class="hash-link" aria-label="Direct link to Bug Fix" title="Direct link to Bug Fix" translate="no">​</a></h2>
 <ul>
 <li class="">Fixed position of the panel was calculated incorrectly when the <code>duration</code> is 0 and <code>moveType</code> is "strict". (#771)</li>
 <li class="">Fixed CSS transform was not applied correctly during the SSR rendering process. (#773)</li>
@@ -194,11 +194,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[4.10.5]]></title>
-        <id>https://cjw783.github.io/flicking-docs-test/releases/2023/02/01/release-4.10.5</id>
-        <link href="https://cjw783.github.io/flicking-docs-test/releases/2023/02/01/release-4.10.5"/>
+        <id>https://daybrush.github.io/flicking-docs-test/releases/2023/02/01/release-4.10.5</id>
+        <link href="https://daybrush.github.io/flicking-docs-test/releases/2023/02/01/release-4.10.5"/>
         <updated>2023-02-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Bug Fix]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="bug-fix">Bug Fix<a href="https://cjw783.github.io/flicking-docs-test/releases/2023/02/01/release-4.10.5#bug-fix" class="hash-link" aria-label="Direct link to Bug Fix" title="Direct link to Bug Fix" translate="no">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="bug-fix">Bug Fix<a href="https://daybrush.github.io/flicking-docs-test/releases/2023/02/01/release-4.10.5#bug-fix" class="hash-link" aria-label="Direct link to Bug Fix" title="Direct link to Bug Fix" translate="no">​</a></h2>
 <ul>
 <li class="">Fixed a bug that the <code>resize</code> event listener was not properly removed when the instance was destroyed. (#779)</li>
 <li class="">Fixed the issue that the panel moved to an inappropriate position when a panel is clicked during sliding. (#777)</li>
@@ -207,11 +207,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[4.10.4]]></title>
-        <id>https://cjw783.github.io/flicking-docs-test/releases/2022/12/02/release-4.10.4</id>
-        <link href="https://cjw783.github.io/flicking-docs-test/releases/2022/12/02/release-4.10.4"/>
+        <id>https://daybrush.github.io/flicking-docs-test/releases/2022/12/02/release-4.10.4</id>
+        <link href="https://daybrush.github.io/flicking-docs-test/releases/2022/12/02/release-4.10.4"/>
         <updated>2022-12-02T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Bug Fix]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="bug-fix">Bug Fix<a href="https://cjw783.github.io/flicking-docs-test/releases/2022/12/02/release-4.10.4#bug-fix" class="hash-link" aria-label="Direct link to Bug Fix" title="Direct link to Bug Fix" translate="no">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="bug-fix">Bug Fix<a href="https://daybrush.github.io/flicking-docs-test/releases/2022/12/02/release-4.10.4#bug-fix" class="hash-link" aria-label="Direct link to Bug Fix" title="Direct link to Bug Fix" translate="no">​</a></h2>
 <ul>
 <li class="">Fixed a bug that <code>move</code> event can occur even after <code>holdEnd</code> event at Internet Explorer (<a href="https://github.com/naver/egjs-axes/issues/208" target="_blank" rel="noopener noreferrer" class="">https://github.com/naver/egjs-axes/issues/208</a>)</li>
 </ul>]]></content>
@@ -219,11 +219,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[4.10.3]]></title>
-        <id>https://cjw783.github.io/flicking-docs-test/releases/2022/11/25/release-4.10.3</id>
-        <link href="https://cjw783.github.io/flicking-docs-test/releases/2022/11/25/release-4.10.3"/>
+        <id>https://daybrush.github.io/flicking-docs-test/releases/2022/11/25/release-4.10.3</id>
+        <link href="https://daybrush.github.io/flicking-docs-test/releases/2022/11/25/release-4.10.3"/>
         <updated>2022-11-25T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Bug Fix]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="bug-fix">Bug Fix<a href="https://cjw783.github.io/flicking-docs-test/releases/2022/11/25/release-4.10.3#bug-fix" class="hash-link" aria-label="Direct link to Bug Fix" title="Direct link to Bug Fix" translate="no">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="bug-fix">Bug Fix<a href="https://daybrush.github.io/flicking-docs-test/releases/2022/11/25/release-4.10.3#bug-fix" class="hash-link" aria-label="Direct link to Bug Fix" title="Direct link to Bug Fix" translate="no">​</a></h2>
 <ul>
 <li class="">Fixed a bug that <code>resizeOnContentsReady</code> option cause error with lazy image loading inside panel (#745)</li>
 </ul>]]></content>
@@ -231,11 +231,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[4.10.2]]></title>
-        <id>https://cjw783.github.io/flicking-docs-test/releases/2022/11/03/release-4.10.2</id>
-        <link href="https://cjw783.github.io/flicking-docs-test/releases/2022/11/03/release-4.10.2"/>
+        <id>https://daybrush.github.io/flicking-docs-test/releases/2022/11/03/release-4.10.2</id>
+        <link href="https://daybrush.github.io/flicking-docs-test/releases/2022/11/03/release-4.10.2"/>
         <updated>2022-11-03T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Bug Fix]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="bug-fix">Bug Fix<a href="https://cjw783.github.io/flicking-docs-test/releases/2022/11/03/release-4.10.2#bug-fix" class="hash-link" aria-label="Direct link to Bug Fix" title="Direct link to Bug Fix" translate="no">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="bug-fix">Bug Fix<a href="https://daybrush.github.io/flicking-docs-test/releases/2022/11/03/release-4.10.2#bug-fix" class="hash-link" aria-label="Direct link to Bug Fix" title="Direct link to Bug Fix" translate="no">​</a></h2>
 <ul>
 <li class="">Fixed component dependency for frameworks (#741)</li>
 <li class="">Fixed a bug that some setters doesn't update UI (#743)</li>
@@ -244,15 +244,15 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[4.10.1]]></title>
-        <id>https://cjw783.github.io/flicking-docs-test/releases/2022/10/26/release-4.10.1</id>
-        <link href="https://cjw783.github.io/flicking-docs-test/releases/2022/10/26/release-4.10.1"/>
+        <id>https://daybrush.github.io/flicking-docs-test/releases/2022/10/26/release-4.10.1</id>
+        <link href="https://daybrush.github.io/flicking-docs-test/releases/2022/10/26/release-4.10.1"/>
         <updated>2022-10-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Bug Fix]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="bug-fix">Bug Fix<a href="https://cjw783.github.io/flicking-docs-test/releases/2022/10/26/release-4.10.1#bug-fix" class="hash-link" aria-label="Direct link to Bug Fix" title="Direct link to Bug Fix" translate="no">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="bug-fix">Bug Fix<a href="https://daybrush.github.io/flicking-docs-test/releases/2022/10/26/release-4.10.1#bug-fix" class="hash-link" aria-label="Direct link to Bug Fix" title="Direct link to Bug Fix" translate="no">​</a></h2>
 <ul>
 <li class="">Fixed a bug that <code>preventClickOnDrag</code> option prevents click event for movement less than 1 pixel (#738)</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="others">Others<a href="https://cjw783.github.io/flicking-docs-test/releases/2022/10/26/release-4.10.1#others" class="hash-link" aria-label="Direct link to Others" title="Direct link to Others" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="others">Others<a href="https://daybrush.github.io/flicking-docs-test/releases/2022/10/26/release-4.10.1#others" class="hash-link" aria-label="Direct link to Others" title="Direct link to Others" translate="no">​</a></h2>
 <ul>
 <li class=""><code>@egjs/react-flicking</code> , <code>@egjs/preact-flicking</code> 4.10.2<!-- -->
 <ul>
@@ -265,16 +265,16 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[4.10.0]]></title>
-        <id>https://cjw783.github.io/flicking-docs-test/releases/2022/09/15/release-4.10.0</id>
-        <link href="https://cjw783.github.io/flicking-docs-test/releases/2022/09/15/release-4.10.0"/>
+        <id>https://daybrush.github.io/flicking-docs-test/releases/2022/09/15/release-4.10.0</id>
+        <link href="https://daybrush.github.io/flicking-docs-test/releases/2022/09/15/release-4.10.0"/>
         <updated>2022-09-15T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[New Feature]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="new-feature">New Feature<a href="https://cjw783.github.io/flicking-docs-test/releases/2022/09/15/release-4.10.0#new-feature" class="hash-link" aria-label="Direct link to New Feature" title="Direct link to New Feature" translate="no">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="new-feature">New Feature<a href="https://daybrush.github.io/flicking-docs-test/releases/2022/09/15/release-4.10.0#new-feature" class="hash-link" aria-label="Direct link to New Feature" title="Direct link to New Feature" translate="no">​</a></h2>
 <ul>
 <li class="">Added a new method <code>updateAnimation</code> (#728)</li>
 <li class="">Added a new method <code>stopAnimation</code> (#728)</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="others">Others<a href="https://cjw783.github.io/flicking-docs-test/releases/2022/09/15/release-4.10.0#others" class="hash-link" aria-label="Direct link to Others" title="Direct link to Others" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="others">Others<a href="https://daybrush.github.io/flicking-docs-test/releases/2022/09/15/release-4.10.0#others" class="hash-link" aria-label="Direct link to Others" title="Direct link to Others" translate="no">​</a></h2>
 <ul>
 <li class=""><code>@egjs/ngx-flicking</code>
 <ul>
@@ -286,11 +286,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[4.9.3]]></title>
-        <id>https://cjw783.github.io/flicking-docs-test/releases/2022/08/30/release-4.9.3</id>
-        <link href="https://cjw783.github.io/flicking-docs-test/releases/2022/08/30/release-4.9.3"/>
+        <id>https://daybrush.github.io/flicking-docs-test/releases/2022/08/30/release-4.9.3</id>
+        <link href="https://daybrush.github.io/flicking-docs-test/releases/2022/08/30/release-4.9.3"/>
         <updated>2022-08-30T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Bug Fix]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="bug-fix">Bug Fix<a href="https://cjw783.github.io/flicking-docs-test/releases/2022/08/30/release-4.9.3#bug-fix" class="hash-link" aria-label="Direct link to Bug Fix" title="Direct link to Bug Fix" translate="no">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_ZFAD" id="bug-fix">Bug Fix<a href="https://daybrush.github.io/flicking-docs-test/releases/2022/08/30/release-4.9.3#bug-fix" class="hash-link" aria-label="Direct link to Bug Fix" title="Direct link to Bug Fix" translate="no">​</a></h2>
 <ul>
 <li class="">Fixed a bug that Panel was not released when the input was canceled</li>
 </ul>]]></content>

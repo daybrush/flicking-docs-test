@@ -12,11 +12,11 @@ Creates a new Flicking instance
 
 **`root`** (`HTMLElement | string`) - A root HTMLElement to initialize Flicking on it. When it's a typeof `string`, it should be a css selector string
 
-**`options`** (`Partial<FlickingOptions>`) - A [FlickingOptions](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md) object
+**`options`** (`Partial<FlickingOptions>`) - A [FlickingOptions](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md) object
 
 **Throws:**
 
-- [InitializationErrors](https://cjw783.github.io/flicking-docs-test/llm-docs/api/types/InitializationErrors.md)
+- [InitializationErrors](https://daybrush.github.io/flicking-docs-test/llm-docs/api/types/InitializationErrors.md)
 
 ### Examples
 
@@ -38,7 +38,7 @@ const flicking2 = new Flicking(".flicking-viewport", { circular: true });
 
 Array of currently activated plugins.
 
-**Remarks:** Plugins are added via [addPlugins](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#addplugins) and removed via [removePlugins](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#removeplugins).
+**Remarks:** Plugins are added via [addPlugins](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#addplugins) and removed via [removePlugins](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#removeplugins).
 
 *This property is read-only.*
 
@@ -46,13 +46,13 @@ Array of currently activated plugins.
 
 **Type:** `FlickingOptions["adaptive"]`
 
-Current value of the [adaptive](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#adaptive) option.
+Current value of the [adaptive](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#adaptive) option.
 
 ### align
 
 **Type:** `FlickingOptions["align"]`
 
-Current value of the [align](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#align) option.
+Current value of the [align](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#align) option.
 
 ### animating
 
@@ -70,13 +70,13 @@ since v4.15.0
 
 **Type:** `FlickingOptions["animationThreshold"]`
 
-Current value of the [animationThreshold](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#animationthreshold) option.
+Current value of the [animationThreshold](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#animationthreshold) option.
 
 ### autoInit
 
 **Type:** `FlickingOptions["autoInit"]`
 
-Current value of the [autoInit](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#autoinit) option.
+Current value of the [autoInit](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#autoinit) option.
 
 *This property is read-only.*
 
@@ -84,13 +84,13 @@ Current value of the [autoInit](https://cjw783.github.io/flicking-docs-test/llm-
 
 **Type:** `FlickingOptions["autoResize"]`
 
-Current value of the [autoResize](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#autoresize) option.
+Current value of the [autoResize](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#autoresize) option.
 
 ### autoResizer
 
 **Type:** `AutoResizer`
 
-`AutoResizer` instance that detects size changes and triggers resize when [autoResize](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#autoresize) option is enabled
+`AutoResizer` instance that detects size changes and triggers resize when [autoResize](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#autoresize) option is enabled
 
 *This property is read-only.*
 
@@ -98,21 +98,21 @@ Current value of the [autoResize](https://cjw783.github.io/flicking-docs-test/ll
 
 **Type:** `FlickingOptions["bounce"]`
 
-Current value of the [bounce](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bounce) option.
+Current value of the [bounce](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bounce) option.
 
 ### bound
 
 **Type:** `FlickingOptions["bound"]`
 
-Current value of the [bound](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bound) option.
+Current value of the [bound](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bound) option.
 
 ### camera
 
 **Type:** `Camera`
 
-[Camera](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Camera.md) instance that manages actual movement and positioning inside the viewport
+[Camera](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Camera.md) instance that manages actual movement and positioning inside the viewport
 
-**Remarks:** The concrete Camera implementation is selected based on [circular](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circular) and [bound](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bound) options.
+**Remarks:** The concrete Camera implementation is selected based on [circular](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circular) and [bound](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bound) options.
 
 *This property is read-only.*
 
@@ -122,13 +122,13 @@ since v4.8.0
 
 **Type:** `FlickingOptions["changeOnHold"]`
 
-Current value of the [changeOnHold](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#changeonhold) option.
+Current value of the [changeOnHold](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#changeonhold) option.
 
 ### circular
 
 **Type:** `FlickingOptions["circular"]`
 
-Current value of the [circular](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circular) option.
+Current value of the [circular](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circular) option.
 
 ### circularEnabled
 
@@ -136,7 +136,7 @@ Current value of the [circular](https://cjw783.github.io/flicking-docs-test/llm-
 
 Whether the circular mode is actually enabled.
 
-**Remarks:** The [circular](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circular) option may not be enabled when the sum of panel sizes is too small. This property reflects the actual enabled state, which may differ from the [circular](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circular) option value.
+**Remarks:** The [circular](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circular) option may not be enabled when the sum of panel sizes is too small. This property reflects the actual enabled state, which may differ from the [circular](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circular) option value.
 
 **Default:** `false`
 
@@ -148,7 +148,7 @@ since v4.5.0
 
 **Type:** `FlickingOptions["circularFallback"]`
 
-Current value of the [circularFallback](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circularfallback) option.
+Current value of the [circularFallback](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circularfallback) option.
 
 *This property is read-only.*
 
@@ -156,9 +156,9 @@ Current value of the [circularFallback](https://cjw783.github.io/flicking-docs-t
 
 **Type:** `Control`
 
-[Control](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Control.md) instance that manages user input and panel movement animations
+[Control](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Control.md) instance that manages user input and panel movement animations
 
-**Remarks:** The concrete Control implementation is selected based on [moveType](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#movetype) option.
+**Remarks:** The concrete Control implementation is selected based on [moveType](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#movetype) option.
 
 *This property is read-only.*
 
@@ -176,37 +176,37 @@ The currently active panel.
 
 **Type:** `FlickingOptions["deceleration"]`
 
-Current value of the [deceleration](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#deceleration) option.
+Current value of the [deceleration](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#deceleration) option.
 
 ### defaultIndex
 
 **Type:** `FlickingOptions["defaultIndex"]`
 
-Current value of the [defaultIndex](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#defaultindex) option.
+Current value of the [defaultIndex](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#defaultindex) option.
 
 ### disableOnInit
 
 **Type:** `FlickingOptions["disableOnInit"]`
 
-Current value of the [disableOnInit](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#disableoninit) option.
+Current value of the [disableOnInit](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#disableoninit) option.
 
 ### dragThreshold
 
 **Type:** `FlickingOptions["dragThreshold"]`
 
-Current value of the [dragThreshold](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#dragthreshold) option.
+Current value of the [dragThreshold](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#dragthreshold) option.
 
 ### duration
 
 **Type:** `FlickingOptions["duration"]`
 
-Current value of the [duration](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#duration) option.
+Current value of the [duration](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#duration) option.
 
 ### easing
 
 **Type:** `FlickingOptions["easing"]`
 
-Current value of the [easing](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#easing) option.
+Current value of the [easing](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#easing) option.
 
 ### element
 
@@ -222,7 +222,7 @@ The root viewport element (`.flicking-viewport`).
 
 **Type:** `FlickingOptions["externalRenderer"]`
 
-Current value of the [externalRenderer](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#externalrenderer) option.
+Current value of the [externalRenderer](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#externalrenderer) option.
 
 *This property is read-only.*
 
@@ -240,7 +240,7 @@ Whether the user is currently clicking or touching the viewport.
 
 **Type:** `FlickingOptions["horizontal"]`
 
-Current value of the [horizontal](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#horizontal) option.
+Current value of the [horizontal](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#horizontal) option.
 
 ### index
 
@@ -256,9 +256,9 @@ Index of the currently active panel.
 
 **Type:** `boolean`
 
-Whether Flicking's [init](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#init) is called.
+Whether Flicking's [init](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#init) is called.
 
-**Remarks:** This is `true` when [init](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#init) is called, and is `false` after calling [destroy](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#destroy). Use this to check if Flicking is ready before calling certain methods that require initialization.
+**Remarks:** This is `true` when [init](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#init) is called, and is `false` after calling [destroy](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#destroy). Use this to check if Flicking is ready before calling certain methods that require initialization.
 
 **Default:** `false`
 
@@ -268,19 +268,19 @@ Whether Flicking's [init](https://cjw783.github.io/flicking-docs-test/llm-docs/a
 
 **Type:** `FlickingOptions["inputType"]`
 
-Current value of the [inputType](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#inputtype) option.
+Current value of the [inputType](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#inputtype) option.
 
 ### interruptable
 
 **Type:** `FlickingOptions["interruptable"]`
 
-Current value of the [interruptable](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#interruptable) option.
+Current value of the [interruptable](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#interruptable) option.
 
 ### iOSEdgeSwipeThreshold
 
 **Type:** `FlickingOptions["iOSEdgeSwipeThreshold"]`
 
-Current value of the [iOSEdgeSwipeThreshold](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#iosedgeswipethreshold) option.
+Current value of the [iOSEdgeSwipeThreshold](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#iosedgeswipethreshold) option.
 
 ### maxResizeDebounce
 
@@ -288,7 +288,7 @@ since v4.6.0
 
 **Type:** `FlickingOptions["maxResizeDebounce"]`
 
-Current value of the [maxResizeDebounce](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#maxresizedebounce) option.
+Current value of the [maxResizeDebounce](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#maxresizedebounce) option.
 
 *This property is read-only.*
 
@@ -296,13 +296,13 @@ Current value of the [maxResizeDebounce](https://cjw783.github.io/flicking-docs-
 
 **Type:** `FlickingOptions["moveType"]`
 
-Current value of the [moveType](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#movetype) option.
+Current value of the [moveType](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#movetype) option.
 
 ### needPanelThreshold
 
 **Type:** `FlickingOptions["needPanelThreshold"]`
 
-Current value of the [needPanelThreshold](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#needpanelthreshold) option.
+Current value of the [needPanelThreshold](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#needpanelthreshold) option.
 
 ### nested
 
@@ -310,13 +310,13 @@ since v4.7.0
 
 **Type:** `FlickingOptions["nested"]`
 
-Current value of the [nested](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#nested) option.
+Current value of the [nested](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#nested) option.
 
 ### noPanelStyleOverride
 
 **Type:** `FlickingOptions["noPanelStyleOverride"]`
 
-Current value of the [noPanelStyleOverride](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#nopanelstyleoverride) option.
+Current value of the [noPanelStyleOverride](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#nopanelstyleoverride) option.
 
 ### observePanelResize
 
@@ -324,7 +324,7 @@ since v4.13.1
 
 **Type:** `FlickingOptions["observePanelResize"]`
 
-Current value of the [observePanelResize](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#observepanelresize) option.
+Current value of the [observePanelResize](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#observepanelresize) option.
 
 ### optimizeSizeUpdate
 
@@ -332,7 +332,7 @@ since v4.14.0
 
 **Type:** `FlickingOptions["optimizeSizeUpdate"]`
 
-Current value of the [optimizeSizeUpdate](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#optimizesizeupdate) option.
+Current value of the [optimizeSizeUpdate](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#optimizesizeupdate) option.
 
 ### panelCount
 
@@ -360,13 +360,13 @@ since v4.2.0
 
 **Type:** `FlickingOptions["panelsPerView"]`
 
-Current value of the [panelsPerView](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#panelsperview) option.
+Current value of the [panelsPerView](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#panelsperview) option.
 
 ### preventClickOnDrag
 
 **Type:** `FlickingOptions["preventClickOnDrag"]`
 
-Current value of the [preventClickOnDrag](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#preventclickondrag) option.
+Current value of the [preventClickOnDrag](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#preventclickondrag) option.
 
 ### preventDefaultOnDrag
 
@@ -374,7 +374,7 @@ since v4.11.0
 
 **Type:** `FlickingOptions["preventDefaultOnDrag"]`
 
-Current value of the [preventDefaultOnDrag](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#preventdefaultondrag) option.
+Current value of the [preventDefaultOnDrag](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#preventdefaultondrag) option.
 
 ### preventEventsBeforeInit
 
@@ -382,15 +382,15 @@ since v4.2.0
 
 **Type:** `FlickingOptions["preventEventsBeforeInit"]`
 
-Current value of the [preventEventsBeforeInit](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#preventeventsbeforeinit) option.
+Current value of the [preventEventsBeforeInit](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#preventeventsbeforeinit) option.
 
 ### renderer
 
 **Type:** `Renderer`
 
-[Renderer](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Renderer.md) instance that manages panels and their elements
+[Renderer](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Renderer.md) instance that manages panels and their elements
 
-**Remarks:** The concrete Renderer implementation is selected based on [externalRenderer](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#externalrenderer) and [virtual](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#virtual) options.
+**Remarks:** The concrete Renderer implementation is selected based on [externalRenderer](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#externalrenderer) and [virtual](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#virtual) options.
 
 *This property is read-only.*
 
@@ -406,7 +406,7 @@ Current value of the [preventEventsBeforeInit](https://cjw783.github.io/flicking
 
 **Type:** `FlickingOptions["renderOnlyVisible"]`
 
-Current value of the [renderOnlyVisible](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#renderonlyvisible) option.
+Current value of the [renderOnlyVisible](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#renderonlyvisible) option.
 
 ### resizeDebounce
 
@@ -414,7 +414,7 @@ since v4.6.0
 
 **Type:** `FlickingOptions["resizeDebounce"]`
 
-Current value of the [resizeDebounce](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#resizedebounce) option.
+Current value of the [resizeDebounce](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#resizedebounce) option.
 
 *This property is read-only.*
 
@@ -424,13 +424,13 @@ since v4.3.0
 
 **Type:** `FlickingOptions["resizeOnContentsReady"]`
 
-Current value of the [resizeOnContentsReady](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#resizeoncontentsready) option.
+Current value of the [resizeOnContentsReady](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#resizeoncontentsready) option.
 
 ### threshold
 
 **Type:** `FlickingOptions["threshold"]`
 
-Current value of the [threshold](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#threshold) option.
+Current value of the [threshold](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#threshold) option.
 
 ### useCSSOrder
 
@@ -438,7 +438,7 @@ since v4.15.0
 
 **Type:** `FlickingOptions["useCSSOrder"]`
 
-Current value of the [useCSSOrder](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#usecssorder) option.
+Current value of the [useCSSOrder](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#usecssorder) option.
 
 ### useFractionalSize
 
@@ -446,7 +446,7 @@ since v4.9.0
 
 **Type:** `FlickingOptions["useFractionalSize"]`
 
-Current value of the [useFractionalSize](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#usefractionalsize) option.
+Current value of the [useFractionalSize](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#usefractionalsize) option.
 
 *This property is read-only.*
 
@@ -456,7 +456,7 @@ since v4.4.0
 
 **Type:** `FlickingOptions["useResizeObserver"]`
 
-Current value of the [useResizeObserver](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#useresizeobserver) option.
+Current value of the [useResizeObserver](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#useresizeobserver) option.
 
 ### VERSION
 
@@ -470,7 +470,7 @@ Version info string
 
 **Type:** `Viewport`
 
-[Viewport](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Viewport.md) instance that manages viewport size and element
+[Viewport](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Viewport.md) instance that manages viewport size and element
 
 *This property is read-only.*
 
@@ -478,7 +478,7 @@ Version info string
 
 **Type:** `VirtualManager`
 
-[VirtualManager](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/VirtualManager.md) instance that manages virtual panels
+[VirtualManager](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/VirtualManager.md) instance that manages virtual panels
 
 *This property is read-only.*
 
@@ -488,7 +488,7 @@ Version info string
 
 Whether the virtual mode is actually enabled.
 
-**Remarks:** The [virtual](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#virtual) option may not be enabled when [panelsPerView](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#panelsperview) is less than or equal to zero. This property reflects the actual enabled state, which may differ from the [virtual](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#virtual) option value.
+**Remarks:** The [virtual](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#virtual) option may not be enabled when [panelsPerView](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#panelsperview) is less than or equal to zero. This property reflects the actual enabled state, which may differ from the [virtual](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#virtual) option value.
 
 **Default:** `false`
 
@@ -538,7 +538,7 @@ Add new panels after the last panel.
 
 **Throws:**
 
-- [DOMManipulationErrors](https://cjw783.github.io/flicking-docs-test/llm-docs/api/types/DOMManipulationErrors.md)
+- [DOMManipulationErrors](https://daybrush.github.io/flicking-docs-test/llm-docs/api/types/DOMManipulationErrors.md)
 
 ### destroy
 
@@ -548,7 +548,7 @@ destroy(): void
 
 Destroy Flicking and remove all event handlers.
 
-**Remarks:** This method cleans up all resources including event handlers, components, and plugins. After calling this method, [initialized](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#initialized) will be `false` and the instance should not be used.
+**Remarks:** This method cleans up all resources including event handlers, components, and plugins. After calling this method, [initialized](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#initialized) will be `false` and the instance should not be used.
 
 ### disableInput
 
@@ -598,7 +598,7 @@ Get the current Flicking status.
 
 **Parameters:**
 
-- `options` (`GetStatusParams`) - [GetStatusParams](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/GetStatusParams.md)
+- `options` (`GetStatusParams`) - [GetStatusParams](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/GetStatusParams.md)
 
 **Returns:** Status object that can be used with setStatus to restore the state
 
@@ -612,11 +612,11 @@ Initialize Flicking and move to the default index.
 
 **Returns:** Promise that resolves when initialization is complete
 
-**Remarks:** This method is automatically called in the constructor when [autoInit](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#autoinit) is `true` (default). If Flicking is already initialized, this method returns immediately without doing anything.
+**Remarks:** This method is automatically called in the constructor when [autoInit](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#autoinit) is `true` (default). If Flicking is already initialized, this method returns immediately without doing anything.
 
 **Fires:**
 
-- [ReadyEvent](https://cjw783.github.io/flicking-docs-test/llm-docs/api/types/ReadyEvent.md)
+- [ReadyEvent](https://daybrush.github.io/flicking-docs-test/llm-docs/api/types/ReadyEvent.md)
 
 ### insert
 
@@ -638,7 +638,7 @@ Insert new panels at the given index.
 
 **Throws:**
 
-- [DOMManipulationErrors](https://cjw783.github.io/flicking-docs-test/llm-docs/api/types/DOMManipulationErrors.md)
+- [DOMManipulationErrors](https://daybrush.github.io/flicking-docs-test/llm-docs/api/types/DOMManipulationErrors.md)
 
 ### moveTo
 
@@ -652,7 +652,7 @@ Move to the panel with the given index.
 
 - `index` (`number`) - The index of the panel to move to
 
-- `duration` (`number`) - Duration of the animation (unit: ms). Defaults to [duration](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#duration)
+- `duration` (`number`) - Duration of the animation (unit: ms). Defaults to [duration](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#duration)
 
 - `direction` (`ValueOf<typeof DIRECTION>`) - Direction to move (circular mode only). Defaults to `NONE`
 
@@ -660,11 +660,11 @@ Move to the panel with the given index.
 
 **Throws:**
 
-- [MovementErrors](https://cjw783.github.io/flicking-docs-test/llm-docs/api/types/MovementErrors.md)
+- [MovementErrors](https://daybrush.github.io/flicking-docs-test/llm-docs/api/types/MovementErrors.md)
 
 **Fires:**
 
-- [MovementEvents](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/MovementEvents.md)
+- [MovementEvents](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/MovementEvents.md)
 
 ### next
 
@@ -676,17 +676,17 @@ Move to the next panel (current index + 1).
 
 **Parameters:**
 
-- `duration` (`number`) - Duration of the panel movement animation (unit: ms). Defaults to [duration](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#duration)
+- `duration` (`number`) - Duration of the panel movement animation (unit: ms). Defaults to [duration](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#duration)
 
 **Returns:** Promise that resolves after reaching the next panel
 
 **Throws:**
 
-- [MovementErrors](https://cjw783.github.io/flicking-docs-test/llm-docs/api/types/MovementErrors.md)
+- [MovementErrors](https://daybrush.github.io/flicking-docs-test/llm-docs/api/types/MovementErrors.md)
 
 **Fires:**
 
-- [MovementEvents](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/MovementEvents.md)
+- [MovementEvents](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/MovementEvents.md)
 
 ### prepend
 
@@ -706,7 +706,7 @@ Add new panels before the first panel.
 
 **Throws:**
 
-- [DOMManipulationErrors](https://cjw783.github.io/flicking-docs-test/llm-docs/api/types/DOMManipulationErrors.md)
+- [DOMManipulationErrors](https://daybrush.github.io/flicking-docs-test/llm-docs/api/types/DOMManipulationErrors.md)
 
 ### prev
 
@@ -718,17 +718,17 @@ Move to the previous panel (current index - 1).
 
 **Parameters:**
 
-- `duration` (`number`) - Duration of the panel movement animation (unit: ms). Defaults to [duration](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#duration)
+- `duration` (`number`) - Duration of the panel movement animation (unit: ms). Defaults to [duration](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#duration)
 
 **Returns:** Promise that resolves after reaching the previous panel
 
 **Throws:**
 
-- [MovementErrors](https://cjw783.github.io/flicking-docs-test/llm-docs/api/types/MovementErrors.md)
+- [MovementErrors](https://daybrush.github.io/flicking-docs-test/llm-docs/api/types/MovementErrors.md)
 
 **Fires:**
 
-- [MovementEvents](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/MovementEvents.md)
+- [MovementEvents](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/MovementEvents.md)
 
 ### remove
 
@@ -750,7 +750,7 @@ Remove panels starting from the given index.
 
 **Throws:**
 
-- [DOMManipulationErrors](https://cjw783.github.io/flicking-docs-test/llm-docs/api/types/DOMManipulationErrors.md)
+- [DOMManipulationErrors](https://daybrush.github.io/flicking-docs-test/llm-docs/api/types/DOMManipulationErrors.md)
 
 ### removePlugins
 
@@ -780,7 +780,7 @@ Update viewport and panel sizes.
 
 **Fires:**
 
-- [ResizeEvents](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/ResizeEvents.md)
+- [ResizeEvents](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/ResizeEvents.md)
 
 ### setStatus
 
@@ -788,15 +788,15 @@ Update viewport and panel sizes.
 setStatus(status: Status): void
 ```
 
-Restore Flicking to the state of the given [Status](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/Status.md).
+Restore Flicking to the state of the given [Status](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/Status.md).
 
 **Parameters:**
 
-- `status` (`Status`) - [Status](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/Status.md)
+- `status` (`Status`) - [Status](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/Status.md)
 
 **Throws:**
 
-- [StatusRestoreErrors](https://cjw783.github.io/flicking-docs-test/llm-docs/api/types/StatusRestoreErrors.md)
+- [StatusRestoreErrors](https://daybrush.github.io/flicking-docs-test/llm-docs/api/types/StatusRestoreErrors.md)
 
 ### stopAnimation
 
@@ -812,7 +812,7 @@ Stop the animation currently playing.
 
 **Fires:**
 
-- [MoveEndEvent](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/MoveEndEvent.md)
+- [MoveEndEvent](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/MoveEndEvent.md)
 
 ### updateAnimation
 
@@ -830,10 +830,10 @@ Change the destination and duration of the animation currently playing.
 
 - `duration` (`number`) - Duration of the animation (unit: ms)
 
-- `direction` (`ValueOf<typeof DIRECTION>`) - Direction to move. Only available when [circular](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circular) is enabled
+- `direction` (`ValueOf<typeof DIRECTION>`) - Direction to move. Only available when [circular](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circular) is enabled
 
 **Remarks:** This method does nothing if no animation is currently playing.
 
 **Throws:**
 
-- [AnimationUpdateErrors](https://cjw783.github.io/flicking-docs-test/llm-docs/api/types/AnimationUpdateErrors.md)
+- [AnimationUpdateErrors](https://daybrush.github.io/flicking-docs-test/llm-docs/api/types/AnimationUpdateErrors.md)

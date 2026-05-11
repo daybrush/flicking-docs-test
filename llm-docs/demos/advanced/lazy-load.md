@@ -1,6 +1,6 @@
 # Lazy Load
 
-A performance optimization pattern that loads images only for visible panels by combining the [`renderOnlyVisible`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#renderonlyvisible) option with the `visibleChange` event.
+A performance optimization pattern that loads images only for visible panels by combining the [`renderOnlyVisible`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#renderonlyvisible) option with the `visibleChange` event.
 
 
 
@@ -10,8 +10,8 @@ A performance optimization pattern that loads images only for visible panels by 
 
 | Item | Type | Default | Description |
 |------|------|---------|-------------|
-| [`renderOnlyVisible`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#renderonlyvisible) | `boolean` | `false` | Render only visible panels |
-| [`visibleChange`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingEvents.md#visiblechange) | `VisibleChangeEvent` | - | Fired when the visible panels change |
+| [`renderOnlyVisible`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#renderonlyvisible) | `boolean` | `false` | Render only visible panels |
+| [`visibleChange`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingEvents.md#visiblechange) | `VisibleChangeEvent` | - | Fired when the visible panels change |
 
 ### Event Properties
 
@@ -64,12 +64,12 @@ Since `visibleChange` has not fired yet right after Flicking initialization, you
 ## Related Links
 
 ### Related Options
-- [`renderOnlyVisible`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#renderonlyvisible): Render only visible panels
-- [`bound`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bound): Boundary restriction
+- [`renderOnlyVisible`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#renderonlyvisible): Render only visible panels
+- [`bound`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bound): Boundary restriction
 
 ### Related Demos
-- [Render Only Visible](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/advanced/render-only-visible.md): On/off comparison of the renderOnlyVisible option
-- [Virtual Scroll](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/advanced/virtual-scroll.md): Handling large numbers of panels with virtual mode
+- [Render Only Visible](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/advanced/render-only-visible.md): On/off comparison of the renderOnlyVisible option
+- [Virtual Scroll](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/advanced/virtual-scroll.md): Handling large numbers of panels with virtual mode
 
 ## Code
 

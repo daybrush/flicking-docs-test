@@ -4,7 +4,7 @@
 
 ## Description
 
-These errors can occur when calling [update](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/Plugin_2.md#update) to manually update the animation state.
+These errors can occur when calling [update](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/Plugin_2.md#update) to manually update the animation state.
 
 Common scenarios:
 

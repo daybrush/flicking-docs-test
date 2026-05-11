@@ -14,11 +14,11 @@ Update height of the viewport element after movement same to the height of the p
 
 **Dependencies:**
 
-- **Conditional**: Only works when [horizontal](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#horizontal) is true. When horizontal is false, this option has no effect.
+- **Conditional**: Only works when [horizontal](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#horizontal) is true. When horizontal is false, this option has no effect.
 
 **See Also:**
 
-- [Demo: Adaptive](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/adaptive.md)
+- [Demo: Adaptive](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/adaptive.md)
 
 ### align
 
@@ -68,7 +68,7 @@ possibleOptions.forEach(align => {
 
 **See Also:**
 
-- [Demo: Alignment](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/alignment.md)
+- [Demo: Alignment](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/alignment.md)
 
 ### animationThreshold
 
@@ -84,31 +84,31 @@ The minimum distance for animation to proceed.
 
 **See Also:**
 
-- [Demo: Animation Threshold](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/advanced/animation-threshold.md)
+- [Demo: Animation Threshold](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/advanced/animation-threshold.md)
 
 ### autoInit
 
 **Type:** `boolean`
 
-Call [init()](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#init) automatically when creating Flicking's instance.
+Call [init()](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#init) automatically when creating Flicking's instance.
 
 **Default:** `true`
 
 **See Also:**
 
-- [Demo: Auto Init](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/auto-init.md)
+- [Demo: Auto Init](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/auto-init.md)
 
 ### autoResize
 
 **Type:** `boolean`
 
-Whether to automatically call [resize()](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#resize) when the viewport element (.flicking-viewport) size is changed.
+Whether to automatically call [resize()](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#resize) when the viewport element (.flicking-viewport) size is changed.
 
 **Default:** `true`
 
 **See Also:**
 
-- [Demo: Auto Resize](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/advanced/auto-resize.md)
+- [Demo: Auto Resize](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/advanced/auto-resize.md)
 
 ### bounce
 
@@ -120,9 +120,9 @@ The size value of the bounce area.
 
 **Dependencies:**
 
-- **Conditional**: Only can be enabled when [circular](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circular) is false
+- **Conditional**: Only can be enabled when [circular](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circular) is false
 
-- **Related**: Works with [bound](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bound) to provide bounce effect at panel boundaries
+- **Related**: Works with [bound](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bound) to provide bounce effect at panel boundaries
 
 **Example:**
 
@@ -136,7 +136,7 @@ const possibleOptions = [
 
 **See Also:**
 
-- [Demo: Bound](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/bound.md)
+- [Demo: Bound](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/bound.md)
 
 ### bound
 
@@ -148,13 +148,13 @@ Prevent the view (camera element) from going out of the first/last panel.
 
 **Dependencies:**
 
-- **Mutual Exclusive**: [circular](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circular). When circular is true, this option is ignored.
+- **Mutual Exclusive**: [circular](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circular). When circular is true, this option is ignored.
 
-- **Related**: Works with [bounce](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bounce) for bounce effect at boundaries
+- **Related**: Works with [bounce](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bounce) for bounce effect at boundaries
 
 **See Also:**
 
-- [Demo: Bound](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/bound.md)
+- [Demo: Bound](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/bound.md)
 
 ### changeOnHold
 
@@ -170,7 +170,7 @@ Change active panel index on mouse/touch hold while animating.
 
 **See Also:**
 
-- [Demo: Interruptable](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/interruptable.md)
+- [Demo: Interruptable](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/interruptable.md)
 
 ### circular
 
@@ -182,15 +182,15 @@ Enables circular (continuous loop) mode, which connects first/last panel for con
 
 **Dependencies:**
 
-- **Conditional**: Total panel size must be ≥ viewport size. If not met, automatically falls back to [circularFallback](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circularfallback) mode.
+- **Conditional**: Total panel size must be ≥ viewport size. If not met, automatically falls back to [circularFallback](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circularfallback) mode.
 
-- **Mutual Exclusive**: [bound](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bound). When both are true, circular takes precedence and bound will be ignored.
+- **Mutual Exclusive**: [bound](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bound). When both are true, circular takes precedence and bound will be ignored.
 
-- **Related**: [circularFallback](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circularfallback) determines fallback behavior when circular cannot be enabled
+- **Related**: [circularFallback](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circularfallback) determines fallback behavior when circular cannot be enabled
 
 **See Also:**
 
-- [Demo: Circular](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/circular.md)
+- [Demo: Circular](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/circular.md)
 
 ### circularFallback
 
@@ -204,13 +204,13 @@ Set panel control mode for the case when circular cannot be enabled.
 
 **Dependencies:**
 
-- **Requires**: Only takes effect when [circular](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circular) is true but activation requirements are not met (total panel size < viewport size)
+- **Requires**: Only takes effect when [circular](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circular) is true but activation requirements are not met (total panel size < viewport size)
 
 **See Also:**
 
-- [CIRCULAR_FALLBACK](https://cjw783.github.io/flicking-docs-test/llm-docs/api/variables/CIRCULAR_FALLBACK.md)
+- [CIRCULAR_FALLBACK](https://daybrush.github.io/flicking-docs-test/llm-docs/api/variables/CIRCULAR_FALLBACK.md)
 
-- [Demo: Circular](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/circular.md)
+- [Demo: Circular](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/circular.md)
 
 ### deceleration
 
@@ -222,31 +222,31 @@ Deceleration of panel movement animation with momentum applied by user interacti
 
 **See Also:**
 
-- [Demo: Deceleration](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/deceleration.md)
+- [Demo: Deceleration](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/deceleration.md)
 
 ### defaultIndex
 
 **Type:** `number`
 
-Index of the panel to move when Flicking's [init()](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#init) is called. A zero-based integer.
+Index of the panel to move when Flicking's [init()](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#init) is called. A zero-based integer.
 
 **Default:** `0`
 
 **See Also:**
 
-- [Demo: Default Index](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/default-index.md)
+- [Demo: Default Index](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/default-index.md)
 
 ### disableOnInit
 
 **Type:** `boolean`
 
-Automatically call [disableInput()](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#disableinput) during initialization.
+Automatically call [disableInput()](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#disableinput) during initialization.
 
 **Default:** `false`
 
 **See Also:**
 
-- [Demo: Disable Input](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/disable-input.md)
+- [Demo: Disable Input](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/disable-input.md)
 
 ### dragThreshold
 
@@ -258,7 +258,7 @@ Minimum distance to recognize user input (unit: px). Panels will only move after
 
 **See Also:**
 
-- [Demo: Threshold](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/threshold.md)
+- [Demo: Threshold](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/threshold.md)
 
 ### duration
 
@@ -270,7 +270,7 @@ Default duration of the animation in milliseconds.
 
 **See Also:**
 
-- [Demo: Duration](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/duration.md)
+- [Demo: Duration](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/duration.md)
 
 ### easing
 
@@ -284,7 +284,7 @@ An easing function applied to the panel movement animation.
 
 - [Easing Functions Cheat Sheet](http://easings.net/)
 
-- [Demo: Easing](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/easing.md)
+- [Demo: Easing](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/easing.md)
 
 ### horizontal
 
@@ -296,7 +296,7 @@ Direction of panel movement. `true` for horizontal, `false` for vertical.
 
 **See Also:**
 
-- [Demo: Vertical](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/vertical.md)
+- [Demo: Vertical](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/vertical.md)
 
 ### inputType
 
@@ -308,7 +308,7 @@ Types of input devices to enable.
 
 **See Also:**
 
-- [Demo: Input Type](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/input-type.md)
+- [Demo: Input Type](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/input-type.md)
 
 ### interruptable
 
@@ -320,7 +320,7 @@ Allows stopping animations with user click/touch input.
 
 **See Also:**
 
-- [Demo: Interruptable](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/interruptable.md)
+- [Demo: Interruptable](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/interruptable.md)
 
 ### iOSEdgeSwipeThreshold
 
@@ -332,7 +332,7 @@ Size of the area from the right edge in iOS Safari (in px) that enables swipe-ba
 
 **See Also:**
 
-- [Demo: Input Type](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/input-type.md)
+- [Demo: Input Type](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/input-type.md)
 
 ### maxResizeDebounce
 
@@ -348,23 +348,23 @@ The maximum time for size recalculation delay when using `resizeDebounce`, in mi
 
 **See Also:**
 
-- [Demo: Resize Debounce](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/advanced/resize-debounce.md)
+- [Demo: Resize Debounce](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/advanced/resize-debounce.md)
 
 ### moveType
 
 **Type:** `ValueOf<typeof MOVE_TYPE> | MoveTypeOptions<ValueOf<typeof MOVE_TYPE>>`
 
-Movement style by user input. Determines the instance type of [control](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#control).
+Movement style by user input. Determines the instance type of [control](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#control).
 
 **Default:** `"snap"`
 
-**Remarks:** You can use the values of the constant [MOVE_TYPE](https://cjw783.github.io/flicking-docs-test/llm-docs/api/variables/MOVE_TYPE.md).
+**Remarks:** You can use the values of the constant [MOVE_TYPE](https://daybrush.github.io/flicking-docs-test/llm-docs/api/variables/MOVE_TYPE.md).
 
-- "snap": Uses [SnapControl](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/SnapControl.md)
+- "snap": Uses [SnapControl](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/SnapControl.md)
 
-- "freeScroll": Uses [FreeControl](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/FreeControl.md) with [FreeControlOptions](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FreeControlOptions.md)
+- "freeScroll": Uses [FreeControl](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/FreeControl.md) with [FreeControlOptions](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FreeControlOptions.md)
 
-- "strict": Uses [StrictControl](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/StrictControl.md) with [StrictControlOptions](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/StrictControlOptions.md)
+- "strict": Uses [StrictControl](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/StrictControl.md) with [StrictControlOptions](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/StrictControlOptions.md)
 
 **Example:**
 
@@ -385,7 +385,7 @@ const flicking = new Flicking({
 
 **See Also:**
 
-- [Demo: Movement Types](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/movement-types.md)
+- [Demo: Movement Types](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/movement-types.md)
 
 ### needPanelThreshold
 
@@ -397,7 +397,7 @@ A threshold from the viewport edge to trigger the `needPanel` event.
 
 **See Also:**
 
-- [Demo: Infinite Scroll](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/advanced/infinite-scroll.md)
+- [Demo: Infinite Scroll](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/advanced/infinite-scroll.md)
 
 ### nested
 
@@ -415,19 +415,19 @@ This option is not required if the parent and nested Flicking have different hor
 
 **See Also:**
 
-- [Demo: Nested](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/nested.md)
+- [Demo: Nested](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/nested.md)
 
 ### noPanelStyleOverride
 
 **Type:** `boolean`
 
-When enabled, prevents modifying the panel's `width/height` styles when [panelsPerView](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#panelsperview) is enabled. Enabling this option can improve performance if you are manually managing all panel sizes.
+When enabled, prevents modifying the panel's `width/height` styles when [panelsPerView](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#panelsperview) is enabled. Enabling this option can improve performance if you are manually managing all panel sizes.
 
 **Default:** `false`
 
 **See Also:**
 
-- [Demo: Panels Per View](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/panels-per-view.md)
+- [Demo: Panels Per View](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/panels-per-view.md)
 
 ### observePanelResize
 
@@ -441,11 +441,11 @@ Whether to use ResizeObserver to observe the size of the panel element.
 
 **Dependencies:**
 
-- **Conditional**: Only available when [useResizeObserver](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#useresizeobserver) is enabled
+- **Conditional**: Only available when [useResizeObserver](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#useresizeobserver) is enabled
 
 **See Also:**
 
-- [Demo: Observe Panel Resize](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/advanced/observe-panel-resize.md)
+- [Demo: Observe Panel Resize](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/advanced/observe-panel-resize.md)
 
 ### optimizeSizeUpdate
 
@@ -459,13 +459,13 @@ This option works only when autoResize is set to true.
 
 **Dependencies:**
 
-- **Related**: Most effective with [renderOnlyVisible](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#renderonlyvisible) or virtual rendering
+- **Related**: Most effective with [renderOnlyVisible](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#renderonlyvisible) or virtual rendering
 
-- **Requires**: Only works when [autoResize](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#autoresize) is `true`
+- **Requires**: Only works when [autoResize](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#autoresize) is `true`
 
 **See Also:**
 
-- [Demo: Optimize Size Update](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/advanced/optimize-size-update.md)
+- [Demo: Optimize Size Update](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/advanced/optimize-size-update.md)
 
 ### panelsPerView
 
@@ -479,15 +479,15 @@ A visible number of panels on viewport. Enabling this option will force the pane
 
 **Dependencies:**
 
-- **Related**: Affects how [align](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#align) calculates panel positions
+- **Related**: Affects how [align](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#align) calculates panel positions
 
-- **Related**: Works with [noPanelStyleOverride](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#nopanelstyleoverride) to prevent style modifications
+- **Related**: Works with [noPanelStyleOverride](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#nopanelstyleoverride) to prevent style modifications
 
-- **Requires**: Required for [virtual](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#virtual) to work (must be > 0)
+- **Requires**: Required for [virtual](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#virtual) to work (must be > 0)
 
 **See Also:**
 
-- [Demo: Panels Per View](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/panels-per-view.md)
+- [Demo: Panels Per View](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/panels-per-view.md)
 
 ### preventClickOnDrag
 
@@ -499,7 +499,7 @@ Automatically cancels [click](https://developer.mozilla.org/ko/docs/Web/API/Elem
 
 **See Also:**
 
-- [Demo: Prevent Click](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/prevent-click.md)
+- [Demo: Prevent Click](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/prevent-click.md)
 
 ### preventDefaultOnDrag
 
@@ -513,7 +513,7 @@ Whether to use the [preventDefault](https://developer.mozilla.org/ko/docs/Web/AP
 
 **See Also:**
 
-- [Demo: Prevent Click](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/prevent-click.md)
+- [Demo: Prevent Click](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/prevent-click.md)
 
 ### preventEventsBeforeInit
 
@@ -527,7 +527,7 @@ When enabled, disables events before the `ready` event during initialization.
 
 **See Also:**
 
-- [Demo: Auto Init](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/auto-init.md)
+- [Demo: Auto Init](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/auto-init.md)
 
 ### renderExternal
 
@@ -548,7 +548,7 @@ When enabled, only renders visible panels. Can significantly improve performance
 
 **See Also:**
 
-- [Demo: Render Only Visible](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/advanced/render-only-visible.md)
+- [Demo: Render Only Visible](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/advanced/render-only-visible.md)
 
 ### resizeDebounce
 
@@ -564,7 +564,7 @@ Delays size recalculation from `autoResize` by the given time in milliseconds.
 
 **See Also:**
 
-- [Demo: Resize Debounce](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/advanced/resize-debounce.md)
+- [Demo: Resize Debounce](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/advanced/resize-debounce.md)
 
 ### resizeOnContentsReady
 
@@ -572,13 +572,13 @@ since v4.3.0
 
 **Type:** `boolean`
 
-When enabled, automatically calls [resize](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#resize) when images/videos inside Flicking panels are loaded. This is useful when Flicking contains content that changes size before and after loading.
+When enabled, automatically calls [resize](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#resize) when images/videos inside Flicking panels are loaded. This is useful when Flicking contains content that changes size before and after loading.
 
 **Default:** `false`
 
 **See Also:**
 
-- [Demo: Resize On Contents Ready](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/advanced/resize-on-contents-ready.md)
+- [Demo: Resize On Contents Ready](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/advanced/resize-on-contents-ready.md)
 
 ### threshold
 
@@ -590,7 +590,7 @@ Movement threshold to change panels (unit: px). Panels will only change after sc
 
 **See Also:**
 
-- [Demo: Threshold](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/threshold.md)
+- [Demo: Threshold](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/threshold.md)
 
 ### useCSSOrder
 
@@ -606,7 +606,7 @@ Using `useCSSOrder` does not change the DOM order, but the `order` CSS property 
 
 **See Also:**
 
-- [Demo: CSS Order](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/advanced/use-css-order.md)
+- [Demo: CSS Order](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/advanced/use-css-order.md)
 
 ### useFractionalSize
 
@@ -622,7 +622,7 @@ By enabling this, Flicking will calculate all internal size with CSS width compu
 
 **See Also:**
 
-- [Demo: Fractional Size](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/advanced/fractional-size.md)
+- [Demo: Fractional Size](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/advanced/fractional-size.md)
 
 ### useResizeObserver
 
@@ -636,7 +636,7 @@ Whether to listen [ResizeObserver](https://developer.mozilla.org/en-US/docs/Web/
 
 **See Also:**
 
-- [Demo: Auto Resize](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/advanced/auto-resize.md)
+- [Demo: Auto Resize](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/advanced/auto-resize.md)
 
 ### virtual
 
@@ -650,7 +650,7 @@ When enabled, restricts the number of panel elements to `panelsPerView + 1` to r
 
 **Dependencies:**
 
-- **Requires**: Must be used with [panelsPerView](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#panelsperview). When panelsPerView is -1 (auto), this option is ignored.
+- **Requires**: Must be used with [panelsPerView](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#panelsperview). When panelsPerView is -1 (auto), this option is ignored.
 
 **Example:**
 
@@ -674,4 +674,4 @@ flicking.virtual.remove(0, 100);
 
 **See Also:**
 
-- [Demo: Virtual Scroll](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/advanced/virtual-scroll.md)
+- [Demo: Virtual Scroll](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/advanced/virtual-scroll.md)

@@ -1,6 +1,6 @@
 # Deceleration
 
-The [`deceleration`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#deceleration) option sets the deceleration rate of inertial movement after a user flick. Higher values cause it to stop faster, while lower values make it travel farther.
+The [`deceleration`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#deceleration) option sets the deceleration rate of inertial movement after a user flick. Higher values cause it to stop faster, while lower values make it travel farther.
 
 
 
@@ -10,7 +10,7 @@ The [`deceleration`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/in
 
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
-| [`deceleration`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#deceleration) | `number` | `0.0075` | Inertial movement deceleration rate |
+| [`deceleration`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#deceleration) | `number` | `0.0075` | Inertial movement deceleration rate |
 
 ### Comparison by Value
 
@@ -58,12 +58,12 @@ Very low values (close to 0) give a feeling of endless scrolling, while very hig
 ## Related Links
 
 ### Related Options
-- [`moveType`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#movetype): Movement behavior mode (effect is more pronounced with freeScroll)
-- [`duration`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#duration): Snap animation time
+- [`moveType`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#movetype): Movement behavior mode (effect is more pronounced with freeScroll)
+- [`duration`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#duration): Snap animation time
 
 ### Related Demos
-- [Movement Types](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/movement-types.md): freeScroll mode
-- [Duration](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/duration.md): Animation time
+- [Movement Types](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/movement-types.md): freeScroll mode
+- [Duration](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/duration.md): Animation time
 
 ## Code
 

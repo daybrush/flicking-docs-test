@@ -4,15 +4,15 @@ Patterns and best practices for controlling Flicking programmatically, respondin
 
 > **Info: Framework-Specific Guides**
 For detailed information on accessing methods and handling events in your framework, see:
-- [React Guide](https://cjw783.github.io/flicking-docs-test/llm-docs/guide/react-guide.md) - Using `useRef` and event handlers
-- [Vue3 Guide](https://cjw783.github.io/flicking-docs-test/llm-docs/guide/vue3-guide.md) - Using `ref` and event bindings
-- [Quick Start](https://cjw783.github.io/flicking-docs-test/llm-docs/guide/quickstart.md) - Vanilla JavaScript usage
+- [React Guide](https://daybrush.github.io/flicking-docs-test/llm-docs/guide/react-guide.md) - Using `useRef` and event handlers
+- [Vue3 Guide](https://daybrush.github.io/flicking-docs-test/llm-docs/guide/vue3-guide.md) - Using `ref` and event bindings
+- [Quick Start](https://daybrush.github.io/flicking-docs-test/llm-docs/guide/quickstart.md) - Vanilla JavaScript usage
 
 ---
 
 ## Method Patterns
 
-Common patterns for controlling Flicking programmatically. See the [Flicking API](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md) for complete method reference.
+Common patterns for controlling Flicking programmatically. See the [Flicking API](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md) for complete method reference.
 
 #### Sequential Navigation
 
@@ -61,7 +61,7 @@ async function safeNext() {
 
 ## Event Patterns
 
-Understanding Flicking's event system. See [Event Interfaces](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/ChangedEvent.md) for complete event reference.
+Understanding Flicking's event system. See [Event Interfaces](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/ChangedEvent.md) for complete event reference.
 
 ### Event Timeline
 
@@ -90,22 +90,22 @@ User starts dragging
 ### Key Events
 
 **Panel Change Events**
-- [`willChange`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/WillChangeEvent.md) - Fired BEFORE panel changes (cancellable with `e.stop()`)
-- [`changed`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/ChangedEvent.md) - Fired AFTER panel changes
+- [`willChange`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/WillChangeEvent.md) - Fired BEFORE panel changes (cancellable with `e.stop()`)
+- [`changed`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/ChangedEvent.md) - Fired AFTER panel changes
 
 **Movement Events**
-- [`moveStart`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/MoveStartEvent.md) - Animation starts
-- [`move`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/MoveEvent.md) - Continuously fired during movement
-- [`moveEnd`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/MoveEndEvent.md) - Animation ends
+- [`moveStart`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/MoveStartEvent.md) - Animation starts
+- [`move`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/MoveEvent.md) - Continuously fired during movement
+- [`moveEnd`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/MoveEndEvent.md) - Animation ends
 
 **User Input Events**
-- [`holdStart`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/HoldStartEvent.md) / [`holdEnd`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/HoldEndEvent.md) - Touch/click events
-- [`select`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/SelectEvent.md) - Panel clicked/tapped
+- [`holdStart`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/HoldStartEvent.md) / [`holdEnd`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/HoldEndEvent.md) - Touch/click events
+- [`select`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/SelectEvent.md) - Panel clicked/tapped
 
 **Other Events**
 - `ready` - Flicking initialized
-- [`needPanel`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/NeedPanelEvent.md) - For lazy loading
-- [`visibleChange`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/VisibleChangeEvent.md) - Visible panels changed
+- [`needPanel`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/NeedPanelEvent.md) - For lazy loading
+- [`visibleChange`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/VisibleChangeEvent.md) - Visible panels changed
 
 ---
 
@@ -158,7 +158,7 @@ flicking.on(EVENTS.WILL_CHANGE, (e) => {
 
 ## Error Handling Patterns
 
-Flicking throws [`FlickingError`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/FlickingError.md) instances with `ERROR_CODE` constants. See [FlickingError API](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/FlickingError.md) for complete error reference.
+Flicking throws [`FlickingError`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/FlickingError.md) instances with `ERROR_CODE` constants. See [FlickingError API](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/FlickingError.md) for complete error reference.
 
 #### Graceful Degradation
 

@@ -28,7 +28,7 @@ Index of AnchorPoint
 
 **Type:** `Panel`
 
-A [Panel](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md) instance AnchorPoint is referencing to
+A [Panel](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md) instance AnchorPoint is referencing to
 
 *This property is read-only.*
 

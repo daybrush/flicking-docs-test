@@ -1,6 +1,6 @@
 # Interruptable
 
-The [`interruptable`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#interruptable) option controls whether user drag input is allowed while a panel animation is in progress.
+The [`interruptable`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#interruptable) option controls whether user drag input is allowed while a panel animation is in progress.
 
 Press the button to start a 2-second animation, then try dragging during it to see the difference.
 
@@ -12,8 +12,8 @@ Press the button to start a 2-second animation, then try dragging during it to s
 
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
-| [`interruptable`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#interruptable) | `boolean` | `true` | Allow user input during animation |
-| [`changeOnHold`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#changeonhold) | `boolean` | `false` | Whether to immediately update the panel index during drag |
+| [`interruptable`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#interruptable) | `boolean` | `true` | Allow user input during animation |
+| [`changeOnHold`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#changeonhold) | `boolean` | `false` | Whether to immediately update the panel index during drag |
 
 ### Comparison by Value
 
@@ -59,12 +59,12 @@ When `interruptable: false` with a long `duration`, users may feel frustrated wa
 ## Related Links
 
 ### Related Options
-- [`duration`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#duration): Animation duration
-- [`changeOnHold`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#changeonhold): Immediately update panel index during drag
+- [`duration`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#duration): Animation duration
+- [`changeOnHold`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#changeonhold): Immediately update panel index during drag
 
 ### Related Demos
-- [Duration](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/duration.md): Setting animation duration
-- [Easing](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/easing.md): Animation acceleration curve
+- [Duration](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/duration.md): Setting animation duration
+- [Easing](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/easing.md): Animation acceleration curve
 
 ## Code
 

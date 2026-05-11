@@ -4,8 +4,8 @@
   <ShortName>Flicking</ShortName>
   <Description>Search Flicking</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://cjw783.github.io/flicking-docs-test/ko/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://cjw783.github.io/flicking-docs-test/ko/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://cjw783.github.io/flicking-docs-test/ko/opensearch.xml" />
-  <moz:SearchForm>https://cjw783.github.io/flicking-docs-test/ko/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://daybrush.github.io/flicking-docs-test/ko/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://daybrush.github.io/flicking-docs-test/ko/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://daybrush.github.io/flicking-docs-test/ko/opensearch.xml" />
+  <moz:SearchForm>https://daybrush.github.io/flicking-docs-test/ko/</moz:SearchForm>
 </OpenSearchDescription>

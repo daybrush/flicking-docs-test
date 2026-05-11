@@ -1,6 +1,6 @@
 # Observe Panel Resize
 
-Use the [`observePanelResize`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#observepanelresize) option to attach a `ResizeObserver` to each panel element, so that Flicking automatically recalculates the layout when a panel's size changes.
+Use the [`observePanelResize`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#observepanelresize) option to attach a `ResizeObserver` to each panel element, so that Flicking automatically recalculates the layout when a panel's size changes.
 
 Try clicking the "Expand" button inside a panel to see the difference between the two carousels.
 
@@ -12,11 +12,11 @@ Try clicking the "Expand" button inside a panel to see the difference between th
 
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
-| [`observePanelResize`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#observepanelresize) | `boolean` | `false` | Detect panel element size changes via ResizeObserver |
+| [`observePanelResize`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#observepanelresize) | `boolean` | `false` | Detect panel element size changes via ResizeObserver |
 
 ### Dependent Option
 
-`observePanelResize` only works when [`useResizeObserver`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#useresizeobserver) is `true`. Since the default value of `useResizeObserver` is `true`, it can be used without additional configuration.
+`observePanelResize` only works when [`useResizeObserver`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#useresizeobserver) is `true`. Since the default value of `useResizeObserver` is `true`, it can be used without additional configuration.
 
 ### Value Comparison
 
@@ -52,20 +52,20 @@ const flicking = new Flicking("#el", {
 `observePanelResize: true` attaches a ResizeObserver to every panel, which can introduce some overhead when there are many panels. For typical carousels with fixed panel sizes, keep the default (`false`).
 
 > **Warning: Difference from resizeOnContentsReady**
-[`resizeOnContentsReady`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#resizeoncontentsready) is an option that waits once for image/media load completion during initialization. `observePanelResize` continuously monitors panel sizes even after initialization. Choose based on your use case as they serve different purposes.
+[`resizeOnContentsReady`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#resizeoncontentsready) is an option that waits once for image/media load completion during initialization. `observePanelResize` continuously monitors panel sizes even after initialization. Choose based on your use case as they serve different purposes.
 
 ## Related Links
 
 ### Related Options
-- [`useResizeObserver`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#useresizeobserver): Whether to use ResizeObserver (dependent option)
-- [`autoResize`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#autoresize): Auto recalculate on viewport size change
-- [`resizeOnContentsReady`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#resizeoncontentsready): Resize after initial content load completes
-- [`adaptive`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#adaptive): Auto-adjust viewport height
+- [`useResizeObserver`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#useresizeobserver): Whether to use ResizeObserver (dependent option)
+- [`autoResize`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#autoresize): Auto recalculate on viewport size change
+- [`resizeOnContentsReady`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#resizeoncontentsready): Resize after initial content load completes
+- [`adaptive`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#adaptive): Auto-adjust viewport height
 
 ### Related Demos
-- [Adaptive](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/adaptive.md): Auto-adjust viewport height
-- [Auto Resize](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/advanced/auto-resize.md): Resize detection method settings
-- [Resize Debounce](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/advanced/resize-debounce.md): Control resize call frequency
+- [Adaptive](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/adaptive.md): Auto-adjust viewport height
+- [Auto Resize](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/advanced/auto-resize.md): Resize detection method settings
+- [Resize Debounce](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/advanced/resize-debounce.md): Control resize call frequency
 
 ## Code
 

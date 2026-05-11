@@ -4,7 +4,7 @@
 
 **See Also:**
 
-- [Demo: AutoPlay](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/plugins/autoplay.md)
+- [Demo: AutoPlay](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/plugins/autoplay.md)
 
 ## Constructor
 
@@ -80,31 +80,31 @@ Whether to stop autoplay when the plugin is first initialized
 
 **Type:** `number | undefined`
 
-Current value of the [animationDuration](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/AutoPlay.md#animationduration) option.
+Current value of the [animationDuration](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/AutoPlay.md#animationduration) option.
 
 ### delayAfterHover
 
 **Type:** `number`
 
-Current value of the [delayAfterHover](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/AutoPlay.md#delayafterhover) option.
+Current value of the [delayAfterHover](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/AutoPlay.md#delayafterhover) option.
 
 ### direction
 
 **Type:** `AutoPlayOptions["direction"]`
 
-Current value of the [direction](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/AutoPlay.md#direction) option.
+Current value of the [direction](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/AutoPlay.md#direction) option.
 
 ### duration
 
 **Type:** `number`
 
-Current value of the [duration](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/AutoPlay.md#duration) option.
+Current value of the [duration](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/AutoPlay.md#duration) option.
 
 ### play
 
 **Type:** `() => void`
 
-Start the autoplay timer. Panels will move automatically after the configured [duration](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/AutoPlay.md#duration).
+Start the autoplay timer. Panels will move automatically after the configured [duration](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/AutoPlay.md#duration).
 
 ### playing
 
@@ -124,13 +124,13 @@ Stop the autoplay timer and cancel any pending panel movement.
 
 **Type:** `boolean`
 
-Current value of the [stopOnHover](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/AutoPlay.md#stoponhover) option.
+Current value of the [stopOnHover](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/AutoPlay.md#stoponhover) option.
 
 ### stopOnInit
 
 **Type:** `boolean`
 
-Current value of the [stopOnInit](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/AutoPlay.md#stoponinit) option.
+Current value of the [stopOnInit](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/AutoPlay.md#stoponinit) option.
 
 ## Methods
 

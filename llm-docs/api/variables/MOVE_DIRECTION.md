@@ -1,6 +1,6 @@
 # MOVE_DIRECTION
 
-> An object that contains the direction that [Flicking](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md) is moving
+> An object that contains the direction that [Flicking](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md) is moving
 
 ## Type
 

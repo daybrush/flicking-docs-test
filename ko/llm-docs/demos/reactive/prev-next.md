@@ -10,10 +10,10 @@ Use `isReachStart`, `isReachEnd`, and `moveTo` from the Reactive API to build na
 
 | Property / Method | Type | Description |
 |-------------------|------|-------------|
-| [`isReachStart`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveState.md#isreachstart) | `boolean` | Whether the first panel is active |
-| [`isReachEnd`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveState.md#isreachend) | `boolean` | Whether the last panel is active |
-| [`currentPanelIndex`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveState.md#currentpanelindex) | `number` | Currently active panel index |
-| [`moveTo`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveMethod.md#moveto) | `(i: number) => Promise` | Move to a specific panel |
+| [`isReachStart`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveState.md#isreachstart) | `boolean` | Whether the first panel is active |
+| [`isReachEnd`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveState.md#isreachend) | `boolean` | Whether the last panel is active |
+| [`currentPanelIndex`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveState.md#currentpanelindex) | `number` | Currently active panel index |
+| [`moveTo`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveMethod.md#moveto) | `(i: number) => Promise` | Move to a specific panel |
 
 ### Button States
 
@@ -47,12 +47,12 @@ Use `isReachStart`, `isReachEnd`, and `moveTo` from the Reactive API to build na
 ## Related Links
 
 ### Related API
-- [`isReachStart`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveState.md#isreachstart): Start boundary flag
-- [`isReachEnd`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveState.md#isreachend): End boundary flag
+- [`isReachStart`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveState.md#isreachstart): Start boundary flag
+- [`isReachEnd`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveState.md#isreachend): End boundary flag
 
 ### Related Demos
-- [Pagination](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/plugins/pagination.md): Dot pagination
-- [Progress Bar](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/reactive/progress-bar.md): Scroll progress indicator
+- [Pagination](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/plugins/pagination.md): Dot pagination
+- [Progress Bar](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/reactive/progress-bar.md): Scroll progress indicator
 
 ## Code
 

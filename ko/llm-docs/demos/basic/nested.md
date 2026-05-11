@@ -1,6 +1,6 @@
 # Nested
 
-The [`nested`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#nested) option transfers control to the parent Flicking when the child Flicking reaches its boundary. Provides a natural UX for same-direction nested Flicking instances.
+The [`nested`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#nested) option transfers control to the parent Flicking when the child Flicking reaches its boundary. Provides a natural UX for same-direction nested Flicking instances.
 
 
 
@@ -10,7 +10,7 @@ The [`nested`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfac
 
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
-| [`nested`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#nested) | `boolean` | `false` | Transfer control to parent when reaching boundary |
+| [`nested`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#nested) | `boolean` | `false` | Transfer control to parent when reaching boundary |
 
 ### Comparison by Value
 
@@ -62,12 +62,12 @@ If the parent is horizontal and the child is vertical (or vice versa), it works 
 ## Related Links
 
 ### Related Options
-- [`bound`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bound): Boundary restriction (recommended with nested)
-- [`horizontal`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#horizontal): Movement direction
+- [`bound`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bound): Boundary restriction (recommended with nested)
+- [`horizontal`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#horizontal): Movement direction
 
 ### Related Demos
-- [Bound](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/bound.md): Boundary restriction mode
-- [Vertical](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/vertical.md): Vertical mode (different direction combination)
+- [Bound](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/bound.md): Boundary restriction mode
+- [Vertical](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/vertical.md): Vertical mode (different direction combination)
 
 ## Code
 

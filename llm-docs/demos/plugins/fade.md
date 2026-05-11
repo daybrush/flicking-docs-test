@@ -43,8 +43,8 @@ flicking.addPlugins(new Fade("", 2));
 ## Related Links
 
 ### Related Demos
-- [Parallax](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/plugins/parallax.md): Parallax scroll effect
-- [AutoPlay](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/plugins/autoplay.md): Use with autoplay
+- [Parallax](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/plugins/parallax.md): Parallax scroll effect
+- [AutoPlay](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/plugins/autoplay.md): Use with autoplay
 
 ## Code
 

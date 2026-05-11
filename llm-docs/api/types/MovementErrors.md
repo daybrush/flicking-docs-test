@@ -4,7 +4,7 @@
 
 ## Description
 
-These errors can occur when using navigation methods like [prev](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#prev), [next](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#next), or [moveTo](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#moveto).
+These errors can occur when using navigation methods like [prev](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#prev), [next](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#next), or [moveTo](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#moveto).
 
 Common scenarios:
 

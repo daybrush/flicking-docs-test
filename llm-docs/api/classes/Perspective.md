@@ -4,7 +4,7 @@
 
 **See Also:**
 
-- [Demo: Perspective](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/plugins/perspective.md)
+- [Demo: Perspective](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/plugins/perspective.md)
 
 ## Constructor
 
@@ -64,25 +64,25 @@ CSS selector for the element to apply the perspective effect. If empty, the pane
 
 **Type:** `number`
 
-Current value of the [perspective](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Perspective.md#perspective) option.
+Current value of the [perspective](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Perspective.md#perspective) option.
 
 ### rotate
 
 **Type:** `number`
 
-Current value of the [rotate](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Perspective.md#rotate) option.
+Current value of the [rotate](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Perspective.md#rotate) option.
 
 ### scale
 
 **Type:** `number`
 
-Current value of the [scale](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Perspective.md#scale) option.
+Current value of the [scale](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Perspective.md#scale) option.
 
 ### selector
 
 **Type:** `string`
 
-Current value of the [selector](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Perspective.md#selector) option.
+Current value of the [selector](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Perspective.md#selector) option.
 
 ### update
 

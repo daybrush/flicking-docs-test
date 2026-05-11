@@ -12,7 +12,7 @@ Constructs a new instance of the `VirtualPanel` class
 
 ### Parameters
 
-**`options`** (`VirtualPanelOptions`) - [VirtualPanelOptions](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/VirtualPanelOptions.md)
+**`options`** (`VirtualPanelOptions`) - [VirtualPanelOptions](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/VirtualPanelOptions.md)
 
 ## Properties
 

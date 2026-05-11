@@ -1,6 +1,6 @@
 # Fractional Size
 
-Use the [`useFractionalSize`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#usefractionalsize) option to prevent 1px misalignment errors in panels with fractional sizes.
+Use the [`useFractionalSize`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#usefractionalsize) option to prevent 1px misalignment errors in panels with fractional sizes.
 
 
 
@@ -10,7 +10,7 @@ Use the [`useFractionalSize`](https://cjw783.github.io/flicking-docs-test/llm-do
 
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
-| [`useFractionalSize`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#usefractionalsize) | `boolean` | `false` | Calculate sizes with fractional precision |
+| [`useFractionalSize`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#usefractionalsize) | `boolean` | `false` | Calculate sizes with fractional precision |
 
 ### Mode Comparison
 
@@ -72,8 +72,8 @@ Setting `useFractionalSize: true` makes Flicking internally calculate sizes with
 ## Related Links
 
 ### Related Options
-- [`autoResize`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#autoresize): Auto resize
-- [`useResizeObserver`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#useresizeobserver): Whether to use ResizeObserver
+- [`autoResize`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#autoresize): Auto resize
+- [`useResizeObserver`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#useresizeobserver): Whether to use ResizeObserver
 
 ## Code
 

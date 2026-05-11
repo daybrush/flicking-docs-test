@@ -77,8 +77,8 @@ onMounted(() => {
 ## Related Links
 
 ### Related Demos
-- [Arrow](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/plugins/arrow.md): Use with arrow navigation
-- [Pagination](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/plugins/pagination.md): Use with page indicator
+- [Arrow](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/plugins/arrow.md): Use with arrow navigation
+- [Pagination](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/plugins/pagination.md): Use with page indicator
 
 ## Code
 

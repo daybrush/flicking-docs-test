@@ -48,7 +48,7 @@ if (!flicking.animating) {
 
 **See Also:**
 
-- [animating](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#animating)
+- [animating](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#animating)
 
 ### ANIMATION_INTERRUPTED
 
@@ -88,11 +88,11 @@ flicking.next({ interruptable: false });
 
 **See Also:**
 
-- [next](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#next)
+- [next](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#next)
 
-- [prev](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#prev)
+- [prev](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#prev)
 
-- [moveTo](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#moveto)
+- [moveTo](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#moveto)
 
 ### ELEMENT_NOT_FOUND
 
@@ -175,9 +175,9 @@ if (targetIndex >= 0 && targetIndex < flicking.panelCount) {
 
 **See Also:**
 
-- [moveTo](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#moveto)
+- [moveTo](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#moveto)
 
-- [panelCount](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#panelcount)
+- [panelCount](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#panelcount)
 
 ### NO_ACTIVE
 
@@ -218,9 +218,9 @@ const currentIndex = flicking.currentPanel?.index ?? -1;
 
 **See Also:**
 
-- [currentPanel](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#currentpanel)
+- [currentPanel](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#currentpanel)
 
-- [panelCount](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#panelcount)
+- [panelCount](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#panelcount)
 
 ### NOT_ALLOWED_IN_FRAMEWORK
 
@@ -253,9 +253,9 @@ setPanels([...panels, newPanel]);
 
 **See Also:**
 
-- [insert](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#insert)
+- [insert](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#insert)
 
-- [remove](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#remove)
+- [remove](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#remove)
 
 - `replace`
 
@@ -294,9 +294,9 @@ const flicking = new Flicking("#flicking", {
 
 **See Also:**
 
-- [insert](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#insert)
+- [insert](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#insert)
 
-- [VirtualManager](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/VirtualManager.md)
+- [VirtualManager](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/VirtualManager.md)
 
 ### NOT_ATTACHED_TO_FLICKING
 
@@ -364,9 +364,9 @@ flicking.next();
 
 **See Also:**
 
-- [init](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#init)
+- [init](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#init)
 
-- [ReadyEvent](https://cjw783.github.io/flicking-docs-test/llm-docs/api/types/ReadyEvent.md)
+- [ReadyEvent](https://daybrush.github.io/flicking-docs-test/llm-docs/api/types/ReadyEvent.md)
 
 ### POSITION_NOT_REACHABLE
 
@@ -410,9 +410,9 @@ flicking.moveTo(2);
 
 **See Also:**
 
-- [moveToPosition](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Control.md#movetoposition)
+- [moveToPosition](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Control.md#movetoposition)
 
-- [range](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Camera.md#range)
+- [range](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Camera.md#range)
 
 ### STOP_CALLED_BY_USER
 
@@ -455,9 +455,9 @@ try {
 
 **See Also:**
 
-- [WillChangeEvent](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/WillChangeEvent.md)
+- [WillChangeEvent](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/WillChangeEvent.md)
 
-- [WillRestoreEvent](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/WillRestoreEvent.md)
+- [WillRestoreEvent](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/WillRestoreEvent.md)
 
 ### TRANSFORM_NOT_SUPPORTED
 
@@ -552,7 +552,7 @@ new Flicking("#flicking", { moveType: "snap" });
 
 **See Also:**
 
-- [FlickingOptions](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md)
+- [FlickingOptions](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md)
 
 ### WRONG_TYPE
 

@@ -1,6 +1,6 @@
 # Cross Flicking
 
-Use the [`nested`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#nested) option to create a 2D cross-navigation by nesting an inner (horizontal) Flicking inside an outer (vertical) Flicking.
+Use the [`nested`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#nested) option to create a 2D cross-navigation by nesting an inner (horizontal) Flicking inside an outer (vertical) Flicking.
 
 
 
@@ -10,9 +10,9 @@ Use the [`nested`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/inte
 
 | Option | Scope | Value | Role |
 |--------|-------|-------|------|
-| [`horizontal`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#horizontal) | Outer | `false` | Vertical direction (navigation between groups) |
-| [`nested`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#nested) | Inner | `true` | Propagate events to outer when end is reached |
-| [`moveType`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#movetype) | Both | `"strict"` | Move exactly one unit at a time |
+| [`horizontal`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#horizontal) | Outer | `false` | Vertical direction (navigation between groups) |
+| [`nested`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#nested) | Inner | `true` | Propagate events to outer when end is reached |
+| [`moveType`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#movetype) | Both | `"strict"` | Move exactly one unit at a time |
 
 ### Structure
 
@@ -54,12 +54,12 @@ Horizontal swipes are handled by the inner Flicking, and vertical swipes are han
 ## Related Links
 
 ### Related Options
-- [`nested`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#nested): Nested Flicking event propagation
-- [`horizontal`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#horizontal): Scroll direction
+- [`nested`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#nested): Nested Flicking event propagation
+- [`horizontal`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#horizontal): Scroll direction
 
 ### Related Demos
-- [Nested](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/nested.md): On/off comparison of the nested option itself
-- [Fullpage Scroll](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/advanced/fullpage-scroll.md): Vertical fullpage pattern
+- [Nested](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/nested.md): On/off comparison of the nested option itself
+- [Fullpage Scroll](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/advanced/fullpage-scroll.md): Vertical fullpage pattern
 
 ## Code
 

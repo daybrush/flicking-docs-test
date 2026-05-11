@@ -71,8 +71,8 @@ Arrow elements must be placed inside the viewport.
 ## Related Links
 
 ### Related Demos
-- [Pagination](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/plugins/pagination.md): Page indicator
-- [Prev/Next](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/reactive/prev-next.md): Custom navigation
+- [Pagination](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/plugins/pagination.md): Page indicator
+- [Prev/Next](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/reactive/prev-next.md): Custom navigation
 
 ## Code
 

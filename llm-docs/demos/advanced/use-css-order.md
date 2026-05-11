@@ -1,6 +1,6 @@
 # CSS Order
 
-Use the [`useCSSOrder`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#usecssorder) option to control how panel visual order is managed in `circular` mode. The default (`false`) directly changes the DOM node order, while setting it to `true` uses the CSS `order` property to keep DOM order unchanged.
+Use the [`useCSSOrder`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#usecssorder) option to control how panel visual order is managed in `circular` mode. The default (`false`) directly changes the DOM node order, while setting it to `true` uses the CSS `order` property to keep DOM order unchanged.
 
 After cycling through panels, check how the "DOM Order" display below differs.
 
@@ -12,7 +12,7 @@ After cycling through panels, check how the "DOM Order" display below differs.
 
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
-| [`useCSSOrder`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#usecssorder) | `boolean` | `false` | Manage panel order via CSS order property |
+| [`useCSSOrder`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#usecssorder) | `boolean` | `false` | Manage panel order via CSS order property |
 
 ### Value Comparison
 
@@ -53,11 +53,11 @@ If `circular: false`, panel rearrangement does not occur, so the `useCSSOrder` o
 ## Related Links
 
 ### Related Options
-- [`circular`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circular): Circular mode setting
-- [`circularFallback`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circularfallback): Fallback behavior when circular is not possible
+- [`circular`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circular): Circular mode setting
+- [`circularFallback`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circularfallback): Fallback behavior when circular is not possible
 
 ### Related Demos
-- [Circular](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/circular.md): Basic circular mode usage
+- [Circular](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/circular.md): Basic circular mode usage
 
 ## Code
 

@@ -1,6 +1,6 @@
 # Resize Debounce
 
-Control the resize call frequency using the [`resizeDebounce`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#resizedebounce) and [`maxResizeDebounce`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#maxresizedebounce) options.
+Control the resize call frequency using the [`resizeDebounce`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#resizedebounce) and [`maxResizeDebounce`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#maxresizedebounce) options.
 
 Try dragging the bottom-right corner of the container and compare the resize call frequency between the two carousels.
 
@@ -12,8 +12,8 @@ Try dragging the bottom-right corner of the container and compare the resize cal
 
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
-| [`resizeDebounce`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#resizedebounce) | `number` | `0` | Resize call debounce delay (ms) |
-| [`maxResizeDebounce`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#maxresizedebounce) | `number` | `100` | Maximum debounce delay guarantee (ms) |
+| [`resizeDebounce`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#resizedebounce) | `number` | `0` | Resize call debounce delay (ms) |
+| [`maxResizeDebounce`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#maxresizedebounce) | `number` | `100` | Maximum debounce delay guarantee (ms) |
 
 ### Behavior Comparison
 
@@ -49,12 +49,12 @@ Try dragging the bottom-right corner of the container and compare the resize cal
 ## Related Links
 
 ### Related Options
-- [`resizeDebounce`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#resizedebounce): Resize debounce
-- [`maxResizeDebounce`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#maxresizedebounce): Maximum debounce
+- [`resizeDebounce`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#resizedebounce): Resize debounce
+- [`maxResizeDebounce`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#maxresizedebounce): Maximum debounce
 
 ### Related Demos
-- [Auto Resize](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/advanced/auto-resize.md): Resize detection method settings
-- [Optimize Size Update](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/advanced/optimize-size-update.md): Skip unnecessary axis changes
+- [Auto Resize](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/advanced/auto-resize.md): Resize detection method settings
+- [Optimize Size Update](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/advanced/optimize-size-update.md): Skip unnecessary axis changes
 
 ## Code
 

@@ -1,6 +1,6 @@
 # Input Type
 
-The [`inputType`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#inputtype) option sets the input device types to enable as an array. You can allow or restrict specific input devices.
+The [`inputType`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#inputtype) option sets the input device types to enable as an array. You can allow or restrict specific input devices.
 
 
 
@@ -10,7 +10,7 @@ The [`inputType`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/inter
 
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
-| [`inputType`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#inputtype) | `string[]` | `["touch", "mouse"]` | Input device types to enable |
+| [`inputType`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#inputtype) | `string[]` | `["touch", "mouse"]` | Input device types to enable |
 
 ### Comparison by Value
 
@@ -45,7 +45,7 @@ inputType: []
 
 ### iOSEdgeSwipeThreshold
 
-In iOS Safari, swiping from the edge of the screen triggers the browser's back/forward navigation gesture. The [`iOSEdgeSwipeThreshold`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#iosedgeswipethreshold) option specifies the width (px) of this area, so touches starting within that range are passed to the browser instead of being handled by Flicking.
+In iOS Safari, swiping from the edge of the screen triggers the browser's back/forward navigation gesture. The [`iOSEdgeSwipeThreshold`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#iosedgeswipethreshold) option specifies the width (px) of this area, so touches starting within that range are passed to the browser instead of being handled by Flicking.
 
 ```javascript
 const flicking = new Flicking("#el", {
@@ -78,11 +78,11 @@ Generally, using the default `["touch", "mouse"]` is recommended from an accessi
 ## Related Links
 
 ### Related Options
-- [`disableOnInit`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#disableoninit): Disable input on initialization
-- [`iOSEdgeSwipeThreshold`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#iosedgeswipethreshold): iOS edge swipe exclusion area width
+- [`disableOnInit`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#disableoninit): Disable input on initialization
+- [`iOSEdgeSwipeThreshold`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#iosedgeswipethreshold): iOS edge swipe exclusion area width
 
 ### Related Demos
-- [Disable Input](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/disable-input.md): Disabling input
+- [Disable Input](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/disable-input.md): Disabling input
 
 ## Code
 

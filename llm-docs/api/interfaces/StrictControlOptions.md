@@ -1,6 +1,6 @@
 # StrictControlOptions
 
-> Options for the [StrictControl](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/StrictControl.md)
+> Options for the [StrictControl](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/StrictControl.md)
 
 ## Properties
 

@@ -4,7 +4,7 @@
 
 **See Also:**
 
-- [Demo: Parallax](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/plugins/parallax.md)
+- [Demo: Parallax](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/plugins/parallax.md)
 
 ## Constructor
 

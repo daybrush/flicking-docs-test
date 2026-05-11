@@ -10,9 +10,9 @@ Use `indexProgress` from the Reactive API to apply 3D rotation and scaling effec
 
 | Property | Type | Description |
 |----------|------|-------------|
-| [`indexProgress`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveState.md#indexprogress) | `number` | Camera position as a fractional panel index |
-| [`useFlickingReactiveAPI`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/types/FlickingReactiveObject.md) | Hook (React) | Subscribe to reactive state in React |
-| [`connectFlickingReactiveAPI`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/functions/connectFlickingReactiveAPI.md) | Function (Vanilla) | Subscribe to reactive state in Vanilla JS |
+| [`indexProgress`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveState.md#indexprogress) | `number` | Camera position as a fractional panel index |
+| [`useFlickingReactiveAPI`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/types/FlickingReactiveObject.md) | Hook (React) | Subscribe to reactive state in React |
+| [`connectFlickingReactiveAPI`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/functions/connectFlickingReactiveAPI.md) | Function (Vanilla) | Subscribe to reactive state in Vanilla JS |
 
 ### Effect Mapping
 
@@ -62,12 +62,12 @@ This value drives three CSS transform properties:
 ## Related Links
 
 ### Related API
-- [`indexProgress`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveState.md#indexprogress): Fractional panel index progress
-- [`connectFlickingReactiveAPI`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/functions/connectFlickingReactiveAPI.md): Connect Flicking to Reactive API
+- [`indexProgress`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveState.md#indexprogress): Fractional panel index progress
+- [`connectFlickingReactiveAPI`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/functions/connectFlickingReactiveAPI.md): Connect Flicking to Reactive API
 
 ### Related Demos
-- [Parallax](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/plugins/parallax.md): Parallax scrolling effect using indexProgress
-- [Progress Bar](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/reactive/progress-bar.md): Scroll progress indicator
+- [Parallax](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/plugins/parallax.md): Parallax scrolling effect using indexProgress
+- [Progress Bar](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/reactive/progress-bar.md): Scroll progress indicator
 
 ## Code
 

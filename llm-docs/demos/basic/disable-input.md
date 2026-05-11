@@ -1,6 +1,6 @@
 # Disable Input
 
-The [`disableOnInit`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#disableoninit) option disables user input (drag) on initialization. Useful for carousels controlled only by buttons or the API.
+The [`disableOnInit`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#disableoninit) option disables user input (drag) on initialization. Useful for carousels controlled only by buttons or the API.
 
 
 
@@ -10,7 +10,7 @@ The [`disableOnInit`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/i
 
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
-| [`disableOnInit`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#disableoninit) | `boolean` | `false` | Disable input on initialization |
+| [`disableOnInit`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#disableoninit) | `boolean` | `false` | Disable input on initialization |
 
 ### Comparison by Value
 
@@ -54,10 +54,10 @@ When `disableOnInit: true` is set, dragging is not possible. Be sure to provide 
 ## Related Links
 
 ### Related Options
-- [`inputType`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#inputtype): Input device type restriction
+- [`inputType`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#inputtype): Input device type restriction
 
 ### Related Demos
-- [Input Type](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/input-type.md): Input device type settings
+- [Input Type](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/input-type.md): Input device type settings
 
 ## Code
 

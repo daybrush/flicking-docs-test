@@ -1,6 +1,6 @@
 # SychronizableFlickingOptions
 
-> Per-instance synchronization options used in [synchronizedFlickingOptions](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Sync.md#synchronizedflickingoptions)
+> Per-instance synchronization options used in [synchronizedFlickingOptions](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Sync.md#synchronizedflickingoptions)
 
 ## Properties
 

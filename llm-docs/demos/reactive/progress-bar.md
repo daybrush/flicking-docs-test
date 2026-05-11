@@ -10,7 +10,7 @@ Use the `progress` property from the Reactive API to display a visual scroll pro
 
 | Property | Type | Description |
 |----------|------|-------------|
-| [`progress`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveState.md#progress) | `number` | Overall scroll progress percentage (0-100) |
+| [`progress`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveState.md#progress) | `number` | Overall scroll progress percentage (0-100) |
 
 ### Behavior
 
@@ -41,12 +41,12 @@ Use the `progress` property from the Reactive API to display a visual scroll pro
 ## Related Links
 
 ### Related API
-- [`progress`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveState.md#progress): Scroll progress percentage
-- [`connectFlickingReactiveAPI`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/functions/connectFlickingReactiveAPI.md): Connect Flicking to Reactive API
+- [`progress`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingReactiveState.md#progress): Scroll progress percentage
+- [`connectFlickingReactiveAPI`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/functions/connectFlickingReactiveAPI.md): Connect Flicking to Reactive API
 
 ### Related Demos
-- [Pagination](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/plugins/pagination.md): Dot pagination navigation
-- [Prev / Next](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/reactive/prev-next.md): Previous/Next button navigation
+- [Pagination](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/plugins/pagination.md): Dot pagination navigation
+- [Prev / Next](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/reactive/prev-next.md): Previous/Next button navigation
 
 ## Code
 

@@ -12,7 +12,7 @@ Creates a new Camera instance
 
 ### Parameters
 
-**`flicking`** (`Flicking`) - An instance of [Flicking](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md)
+**`flicking`** (`Flicking`) - An instance of [Flicking](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md)
 
 **`{ align }`** (`Partial<CameraOptions>`) - 
 
@@ -22,13 +22,13 @@ Creates a new Camera instance
 
 **Type:** `FlickingOptions["align"]`
 
-A value indicating where the [alignPosition](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Camera.md#alignposition) should be located at inside the viewport element
+A value indicating where the [alignPosition](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Camera.md#alignposition) should be located at inside the viewport element
 
 ### alignPosition
 
 **Type:** `number`
 
-Align position inside the viewport where [Panel](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md)'s [alignPosition](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md#alignposition) should be located at
+Align position inside the viewport where [Panel](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md)'s [alignPosition](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md#alignposition) should be located at
 
 *This property is read-only.*
 
@@ -36,7 +36,7 @@ Align position inside the viewport where [Panel](https://cjw783.github.io/flicki
 
 **Type:** `AnchorPoint[]`
 
-An array of [AnchorPoint](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/AnchorPoint.md)s that Camera can be stopped at
+An array of [AnchorPoint](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/AnchorPoint.md)s that Camera can be stopped at
 
 *This property is read-only.*
 
@@ -62,7 +62,7 @@ An array of the child elements of the camera element(`.flicking-camera`)
 
 Whether the `circular` option is enabled.
 
-**Remarks:** The [circular](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#circular) option can't be enabled when sum of the panel sizes are too small.
+**Remarks:** The [circular](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#circular) option can't be enabled when sum of the panel sizes are too small.
 
 **Default:** `false`
 
@@ -100,7 +100,7 @@ A current camera mode
 
 **Type:** `number`
 
-Position offset, used for the [renderOnlyVisible](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#renderonlyvisible) option
+Position offset, used for the [renderOnlyVisible](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#renderonlyvisible) option
 
 **Default:** `0`
 
@@ -136,7 +136,7 @@ Return the camera's position progress from the first panel to last panel
 
 **Type:** `CameraRange`
 
-A range that Camera's [position](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Camera.md#position) can reach
+A range that Camera's [position](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Camera.md#position) can reach
 
 *This property is read-only.*
 
@@ -194,7 +194,7 @@ Check whether the given panel is inside of the Camera's range
 
 **Parameters:**
 
-- `panel` (`Panel`) - An instance of [Panel](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md) to check
+- `panel` (`Panel`) - An instance of [Panel](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md) to check
 
 **Returns:** Whether the panel's inside Camera's range
 
@@ -208,7 +208,7 @@ Check whether the given panel element is visible at the current position
 
 **Parameters:**
 
-- `panel` (`Panel`) - An instance of [Panel](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md) to check
+- `panel` (`Panel`) - An instance of [Panel](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md) to check
 
 **Returns:** Whether the panel element is visible at the current position
 
@@ -244,7 +244,7 @@ Destroy Camera and return to initial state
 findActiveAnchor(): AnchorPoint | null
 ```
 
-Return [AnchorPoint](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/AnchorPoint.md) that matches [currentPanel](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#currentpanel)
+Return [AnchorPoint](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/AnchorPoint.md) that matches [currentPanel](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#currentpanel)
 
 **Returns:** The AnchorPoint that matches current panel
 
@@ -254,7 +254,7 @@ Return [AnchorPoint](https://cjw783.github.io/flicking-docs-test/llm-docs/api/cl
 findAnchorIncludePosition(position: number): AnchorPoint | null
 ```
 
-Return [AnchorPoint](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/AnchorPoint.md) that includes given position
+Return [AnchorPoint](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/AnchorPoint.md) that includes given position
 
 **Parameters:**
 
@@ -262,7 +262,7 @@ Return [AnchorPoint](https://cjw783.github.io/flicking-docs-test/llm-docs/api/cl
 
 **Returns:** The AnchorPoint that includes the given position
 
-**Remarks:** If there's no [AnchorPoint](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/AnchorPoint.md) that includes the given position, return `null` instead
+**Remarks:** If there's no [AnchorPoint](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/AnchorPoint.md) that includes the given position, return `null` instead
 
 ### findNearestAnchor
 
@@ -270,7 +270,7 @@ Return [AnchorPoint](https://cjw783.github.io/flicking-docs-test/llm-docs/api/cl
 findNearestAnchor(position: number): AnchorPoint | null
 ```
 
-Return [AnchorPoint](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/AnchorPoint.md) nearest to given position
+Return [AnchorPoint](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/AnchorPoint.md) nearest to given position
 
 **Parameters:**
 
@@ -278,7 +278,7 @@ Return [AnchorPoint](https://cjw783.github.io/flicking-docs-test/llm-docs/api/cl
 
 **Returns:** The AnchorPoint nearest to the given position
 
-**Remarks:** If there're no [AnchorPoint](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/AnchorPoint.md)s, return `null` instead
+**Remarks:** If there're no [AnchorPoint](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/AnchorPoint.md)s, return `null` instead
 
 ### getNextAnchor
 
@@ -286,11 +286,11 @@ Return [AnchorPoint](https://cjw783.github.io/flicking-docs-test/llm-docs/api/cl
 getNextAnchor(anchor: AnchorPoint): AnchorPoint | null
 ```
 
-Return a next [AnchorPoint](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/AnchorPoint.md) of given [AnchorPoint](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/AnchorPoint.md)
+Return a next [AnchorPoint](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/AnchorPoint.md) of given [AnchorPoint](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/AnchorPoint.md)
 
 **Parameters:**
 
-- `anchor` (`AnchorPoint`) - A reference [AnchorPoint](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/AnchorPoint.md)
+- `anchor` (`AnchorPoint`) - A reference [AnchorPoint](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/AnchorPoint.md)
 
 **Returns:** The next AnchorPoint
 
@@ -302,11 +302,11 @@ Return a next [AnchorPoint](https://cjw783.github.io/flicking-docs-test/llm-docs
 getPrevAnchor(anchor: AnchorPoint): AnchorPoint | null
 ```
 
-Return a previous [AnchorPoint](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/AnchorPoint.md) of given [AnchorPoint](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/AnchorPoint.md)
+Return a previous [AnchorPoint](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/AnchorPoint.md) of given [AnchorPoint](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/AnchorPoint.md)
 
 **Parameters:**
 
-- `anchor` (`AnchorPoint`) - A reference [AnchorPoint](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/AnchorPoint.md)
+- `anchor` (`AnchorPoint`) - A reference [AnchorPoint](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/AnchorPoint.md)
 
 **Returns:** The previous AnchorPoint
 
@@ -338,11 +338,11 @@ Initialize Camera
 
 **Returns:** The current instance for method chaining
 
-**Remarks:** This method is called automatically during [init](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#init). It finds the camera element inside the viewport.
+**Remarks:** This method is called automatically during [init](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#init). It finds the camera element inside the viewport.
 
 **Throws:**
 
-- [InitializationErrors](https://cjw783.github.io/flicking-docs-test/llm-docs/api/types/InitializationErrors.md)
+- [InitializationErrors](https://daybrush.github.io/flicking-docs-test/llm-docs/api/types/InitializationErrors.md)
 
 ### lookAt
 
@@ -360,7 +360,7 @@ Move to the given position and apply CSS transform
 
 **Throws:**
 
-- [InitializationErrors](https://cjw783.github.io/flicking-docs-test/llm-docs/api/types/InitializationErrors.md)
+- [InitializationErrors](https://daybrush.github.io/flicking-docs-test/llm-docs/api/types/InitializationErrors.md)
 
 ### resetNeedPanelHistory
 
@@ -380,11 +380,11 @@ updateAdaptiveHeight(): void
 
 Update Viewport's height to visible panel's max height
 
-**Remarks:** This method only takes effect when [horizontal](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#horizontal) is `true` and [adaptive](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#adaptive) is enabled.
+**Remarks:** This method only takes effect when [horizontal](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#horizontal) is `true` and [adaptive](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#adaptive) is enabled.
 
 **Throws:**
 
-- [InitializationErrors](https://cjw783.github.io/flicking-docs-test/llm-docs/api/types/InitializationErrors.md)
+- [InitializationErrors](https://daybrush.github.io/flicking-docs-test/llm-docs/api/types/InitializationErrors.md)
 
 ### updateAlignPos
 
@@ -392,7 +392,7 @@ Update Viewport's height to visible panel's max height
 updateAlignPos(): this
 ```
 
-Update Camera's [alignPosition](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Camera.md#alignposition)
+Update Camera's [alignPosition](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Camera.md#alignposition)
 
 **Returns:** The current instance for method chaining
 
@@ -402,7 +402,7 @@ Update Camera's [alignPosition](https://cjw783.github.io/flicking-docs-test/llm-
 updateAnchors(): this
 ```
 
-Update Camera's [anchorPoints](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Camera.md#anchorpoints)
+Update Camera's [anchorPoints](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Camera.md#anchorpoints)
 
 **Returns:** The current instance for method chaining
 
@@ -410,7 +410,7 @@ Update Camera's [anchorPoints](https://cjw783.github.io/flicking-docs-test/llm-d
 
 **Throws:**
 
-- [InitializationErrors](https://cjw783.github.io/flicking-docs-test/llm-docs/api/types/InitializationErrors.md)
+- [InitializationErrors](https://daybrush.github.io/flicking-docs-test/llm-docs/api/types/InitializationErrors.md)
 
 ### updateOffset
 
@@ -438,7 +438,7 @@ Update [direction](https://developer.mozilla.org/en-US/docs/Web/CSS/direction) t
 updateRange(): this
 ```
 
-Update [range](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Camera.md#range) of Camera
+Update [range](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Camera.md#range) of Camera
 
 **Returns:** The current instance for method chaining
 
@@ -446,4 +446,4 @@ Update [range](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/
 
 **Throws:**
 
-- [InitializationErrors](https://cjw783.github.io/flicking-docs-test/llm-docs/api/types/InitializationErrors.md)
+- [InitializationErrors](https://daybrush.github.io/flicking-docs-test/llm-docs/api/types/InitializationErrors.md)

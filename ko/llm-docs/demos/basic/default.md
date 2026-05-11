@@ -12,12 +12,12 @@ When created without any options, the following defaults are applied:
 
 | Option | Default | Description |
 |--------|---------|-------------|
-| [`align`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#align) | `"center"` | Panel alignment position |
-| [`horizontal`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#horizontal) | `true` | Horizontal movement |
-| [`circular`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circular) | `false` | Circular mode disabled |
-| [`bound`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bound) | `false` | No boundary restriction |
-| [`duration`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#duration) | `500` | Animation 500ms |
-| [`moveType`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#movetype) | `"snap"` | Snap movement type |
+| [`align`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#align) | `"center"` | Panel alignment position |
+| [`horizontal`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#horizontal) | `true` | Horizontal movement |
+| [`circular`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circular) | `false` | Circular mode disabled |
+| [`bound`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bound) | `false` | No boundary restriction |
+| [`duration`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#duration) | `500` | Animation 500ms |
+| [`moveType`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#movetype) | `"snap"` | Snap movement type |
 
 ### Required Elements
 
@@ -72,9 +72,9 @@ Panel elements must be **direct children** of `.flicking-camera`. It will not wo
 ## Related Links
 
 ### Related Demos
-- [Alignment](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/alignment.md): Panel alignment options
-- [Circular](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/circular.md): Circular mode
-- [Movement Types](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/movement-types.md): Movement types
+- [Alignment](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/alignment.md): Panel alignment options
+- [Circular](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/circular.md): Circular mode
+- [Movement Types](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/movement-types.md): Movement types
 
 ## Code
 

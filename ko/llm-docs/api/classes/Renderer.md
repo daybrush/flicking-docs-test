@@ -1,6 +1,6 @@
 # Renderer
 
-> A component that manages [Panel](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md) and its elements
+> A component that manages [Panel](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md) and its elements
 
 ## Constructor
 
@@ -12,7 +12,7 @@ Constructs a new instance of the `Renderer` class
 
 ### Parameters
 
-**`options`** (`RendererOptions`) - [RendererOptions](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/RendererOptions.md)
+**`options`** (`RendererOptions`) - [RendererOptions](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/RendererOptions.md)
 
 ## Properties
 
@@ -40,7 +40,7 @@ Constructs a new instance of the `Renderer` class
 
 **Type:** `NonNullable<RendererOptions["align"]>`
 
-A [Panel](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md)'s [align](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md#align) value that applied to all panels
+A [Panel](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md)'s [align](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md#align) value that applied to all panels
 
 ### panelCount
 
@@ -82,7 +82,7 @@ Insert new panels at given index
 
 **Throws:**
 
-- [DOMManipulationErrors](https://cjw783.github.io/flicking-docs-test/llm-docs/api/types/DOMManipulationErrors.md)
+- [DOMManipulationErrors](https://daybrush.github.io/flicking-docs-test/llm-docs/api/types/DOMManipulationErrors.md)
 
 ### batchRemove
 
@@ -102,7 +102,7 @@ Remove the panel at the given index
 
 **Throws:**
 
-- [DOMManipulationErrors](https://cjw783.github.io/flicking-docs-test/llm-docs/api/types/DOMManipulationErrors.md)
+- [DOMManipulationErrors](https://daybrush.github.io/flicking-docs-test/llm-docs/api/types/DOMManipulationErrors.md)
 
 ### destroy
 
@@ -126,7 +126,7 @@ forceRenderAllPanels(): Promise<void>
 getPanel(index: number): Panel | null
 ```
 
-Return the [Panel](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md) at the given index. `null` if it doesn't exist.
+Return the [Panel](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md) at the given index. `null` if it doesn't exist.
 
 **Parameters:**
 
@@ -156,11 +156,11 @@ Initialize Renderer
 
 **Parameters:**
 
-- `flicking` (`Flicking`) - An instance of [Flicking](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md)
+- `flicking` (`Flicking`) - An instance of [Flicking](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md)
 
 **Returns:** The current instance for method chaining
 
-**Remarks:** This method is called automatically during [init](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#init). It collects existing panel elements.
+**Remarks:** This method is called automatically during [init](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#init). It collects existing panel elements.
 
 ### render
 

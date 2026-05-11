@@ -1,6 +1,6 @@
 # CircularCameraMode
 
-> A [Camera](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Camera.md) mode that connects the last panel and the first panel, enabling continuous loop
+> A [Camera](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Camera.md) mode that connects the last panel and the first panel, enabling continuous loop
 
 ## Methods
 

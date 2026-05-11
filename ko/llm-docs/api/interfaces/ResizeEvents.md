@@ -8,10 +8,10 @@
 
 **Type:** `AfterResizeEvent`
 
-see [AfterResizeEvent](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/AfterResizeEvent.md)
+see [AfterResizeEvent](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/AfterResizeEvent.md)
 
 ### beforeResize
 
 **Type:** `BeforeResizeEvent`
 
-see [BeforeResizeEvent](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/BeforeResizeEvent.md)
+see [BeforeResizeEvent](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/BeforeResizeEvent.md)

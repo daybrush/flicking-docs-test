@@ -1,10 +1,10 @@
 # FlickingError
 
-> Special type of known error that [Flicking](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md) throws.
+> Special type of known error that [Flicking](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md) throws.
 
 ## Description
 
-see [FlickingErrors](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingErrors.md) for possible error codes and explantaion
+see [FlickingErrors](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingErrors.md) for possible error codes and explantaion
 
 ## Constructor
 

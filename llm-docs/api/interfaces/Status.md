@@ -1,6 +1,6 @@
 # Status
 
-> Flicking Status returned by [getStatus](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#getstatus)
+> Flicking Status returned by [getStatus](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#getstatus)
 
 ## Properties
 
@@ -28,7 +28,7 @@ A data array of panels
         progressInPanel: number;
     }`
 
-A info to restore camera [position](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Camera.md#position)
+A info to restore camera [position](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Camera.md#position)
 
 *This property is optional.*
 

@@ -1,6 +1,6 @@
 # Fullpage Scroll
 
-Combine the [`moveType: "strict"`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#movetype), [`bound`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bound), and [`align`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#align) options to build a fullpage scroll UI.
+Combine the [`moveType: "strict"`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#movetype), [`bound`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bound), and [`align`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#align) options to build a fullpage scroll UI.
 
 
 
@@ -10,10 +10,10 @@ Combine the [`moveType: "strict"`](https://cjw783.github.io/flicking-docs-test/l
 
 | Option | Type | Value | Role |
 |--------|------|-------|------|
-| [`moveType`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#movetype) | `string` | `"strict"` | Move only one page at a time |
-| [`bound`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bound) | `boolean` | `true` | Prevent empty space at both ends |
-| [`align`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#align) | `string` | `"prev"` | Align pages to the viewport start |
-| [`horizontal`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#horizontal) | `boolean` | `false` | Vertical scrolling |
+| [`moveType`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#movetype) | `string` | `"strict"` | Move only one page at a time |
+| [`bound`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bound) | `boolean` | `true` | Prevent empty space at both ends |
+| [`align`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#align) | `string` | `"prev"` | Align pages to the viewport start |
+| [`horizontal`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#horizontal) | `boolean` | `false` | Vertical scrolling |
 
 ### Direction Comparison
 
@@ -54,14 +54,14 @@ Setting `horizontal: false` enables vertical scrolling. In this case, you must s
 ## Related Links
 
 ### Related Options
-- [`moveType`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#movetype): Movement type
-- [`bound`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bound): Boundary restriction
-- [`horizontal`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#horizontal): Scroll direction
-- [`preventDefaultOnDrag`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#preventdefaultondrag): Prevent default behavior on drag
+- [`moveType`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#movetype): Movement type
+- [`bound`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#bound): Boundary restriction
+- [`horizontal`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#horizontal): Scroll direction
+- [`preventDefaultOnDrag`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#preventdefaultondrag): Prevent default behavior on drag
 
 ### Related Demos
-- [Movement Types](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/movement-types.md): Detailed comparison of moveType options
-- [Carousel](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/advanced/carousel.md): Other option combination patterns
+- [Movement Types](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/movement-types.md): Detailed comparison of moveType options
+- [Carousel](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/advanced/carousel.md): Other option combination patterns
 
 ## Code
 

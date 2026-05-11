@@ -8,7 +8,7 @@
 
 **Type:** `boolean`
 
-A Boolean indicating whether the [circular](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#circular) option is enabled
+A Boolean indicating whether the [circular](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#circular) option is enabled
 
 ### position
 

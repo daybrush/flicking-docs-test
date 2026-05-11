@@ -10,9 +10,9 @@ Dynamically add or remove panels using the `prepend()`, `append()`, and `remove(
 
 | Method | Signature | Description |
 |--------|-----------|-------------|
-| [`append`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#append) | `append(element): Panel[]` | Add after the last panel |
-| [`prepend`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#prepend) | `prepend(element): Panel[]` | Add before the first panel |
-| [`remove`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#remove) | `remove(index, count?): Panel[]` | Remove panel at specified index |
+| [`append`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#append) | `append(element): Panel[]` | Add after the last panel |
+| [`prepend`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#prepend) | `prepend(element): Panel[]` | Add before the first panel |
+| [`remove`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#remove) | `remove(index, count?): Panel[]` | Remove panel at specified index |
 
 ### Behavior Comparison
 
@@ -52,13 +52,13 @@ Dynamically add or remove panels using the `prepend()`, `append()`, and `remove(
 ## Related Links
 
 ### Related API
-- [`append`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#append): Add after panels
-- [`prepend`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#prepend): Add before panels
-- [`remove`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#remove): Remove panels
+- [`append`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#append): Add after panels
+- [`prepend`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#prepend): Add before panels
+- [`remove`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#remove): Remove panels
 
 ### Related Demos
-- [Infinite Scroll](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/advanced/infinite-scroll.md): Automatic panel addition with the `needPanel` event
-- [Lazy Load](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/advanced/lazy-load.md): Optimization pattern used with `renderOnlyVisible`
+- [Infinite Scroll](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/advanced/infinite-scroll.md): Automatic panel addition with the `needPanel` event
+- [Lazy Load](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/advanced/lazy-load.md): Optimization pattern used with `renderOnlyVisible`
 
 ## Code
 

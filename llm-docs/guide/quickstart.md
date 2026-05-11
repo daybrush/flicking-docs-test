@@ -145,7 +145,7 @@ import "@egjs/vue3-flicking/dist/flicking.css";
   
 
 > **Tip: Want to style your carousel?**
-Flicking provides minimal base styles to give you maximum styling freedom. The required base CSS handles only functionality, not design. Learn about [HTML Structure & Styling](https://cjw783.github.io/flicking-docs-test/llm-docs/guide/structure-and-styling.md) to understand Flicking's architecture and how to style your carousel. This guide covers:
+Flicking provides minimal base styles to give you maximum styling freedom. The required base CSS handles only functionality, not design. Learn about [HTML Structure & Styling](https://daybrush.github.io/flicking-docs-test/llm-docs/guide/structure-and-styling.md) to understand Flicking's architecture and how to style your carousel. This guide covers:
 - How Flicking's 3-layer structure works
 - Why the base CSS is required
 - Common styling patterns and best practices
@@ -232,7 +232,7 @@ const handleClick = () => {
 
   
 
-See [Flicking Methods](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#methods) for all available methods.
+See [Flicking Methods](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#methods) for all available methods.
 
 ---
 
@@ -275,7 +275,7 @@ flicking.on("willChange", (e) => {
 
 > **Tip: Event Handler Props**
 React event handlers use camelCase with `on` prefix: `onChanged`, `onWillChange`, etc.
-See [React Guide](https://cjw783.github.io/flicking-docs-test/llm-docs/guide/react-guide.md) for more details.
+See [React Guide](https://daybrush.github.io/flicking-docs-test/llm-docs/guide/react-guide.md) for more details.
 
   
   
@@ -301,11 +301,11 @@ const handleWillChange = (e) => {
 
 > **Tip: Event Binding**
 Vue3 uses `@` directive with kebab-case: `@changed`, `@will-change`, etc.
-See [Vue3 Guide](https://cjw783.github.io/flicking-docs-test/llm-docs/guide/vue3-guide.md) for more details.
+See [Vue3 Guide](https://daybrush.github.io/flicking-docs-test/llm-docs/guide/vue3-guide.md) for more details.
 
   
 
-See [Event Interfaces](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/ChangedEvent.md) for all available events.
+See [Event Interfaces](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/ChangedEvent.md) for all available events.
 
 ---
 
@@ -313,11 +313,11 @@ See [Event Interfaces](https://cjw783.github.io/flicking-docs-test/llm-docs/api/
 
 Now that you have a basic carousel working, explore more features:
 
-- **[HTML Structure & Styling](https://cjw783.github.io/flicking-docs-test/llm-docs/guide/structure-and-styling.md)**: Understand Flicking's architecture and customize your carousel
-- **Framework Guides** ([React](https://cjw783.github.io/flicking-docs-test/llm-docs/guide/react-guide.md) / [Vue3](https://cjw783.github.io/flicking-docs-test/llm-docs/guide/vue3-guide.md)): Framework-specific features and best practices
-- **[Common Option Recipes](https://cjw783.github.io/flicking-docs-test/llm-docs/guide/option-recipes.md)**: Learn about option interactions and recommended patterns
-- **[API Reference](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md)**: Complete API documentation
-- **[Demos](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/circular.md)**: Interactive examples
+- **[HTML Structure & Styling](https://daybrush.github.io/flicking-docs-test/llm-docs/guide/structure-and-styling.md)**: Understand Flicking's architecture and customize your carousel
+- **Framework Guides** ([React](https://daybrush.github.io/flicking-docs-test/llm-docs/guide/react-guide.md) / [Vue3](https://daybrush.github.io/flicking-docs-test/llm-docs/guide/vue3-guide.md)): Framework-specific features and best practices
+- **[Common Option Recipes](https://daybrush.github.io/flicking-docs-test/llm-docs/guide/option-recipes.md)**: Learn about option interactions and recommended patterns
+- **[API Reference](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md)**: Complete API documentation
+- **[Demos](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/circular.md)**: Interactive examples
 
 ---
 
@@ -333,4 +333,4 @@ import "@egjs/react-flicking/dist/flicking.css";  // React
 import "@egjs/vue3-flicking/dist/flicking.css";  // Vue3
 ```
 
-**Need more help?** Check [GitHub Issues](https://github.com/naver/egjs-flicking/issues) or read the [API documentation](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md)
+**Need more help?** Check [GitHub Issues](https://github.com/naver/egjs-flicking/issues) or read the [API documentation](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md)

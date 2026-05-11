@@ -6,7 +6,7 @@
 
 **Type:** `LiteralUnion<ValueOf<typeof ALIGN>> | number`
 
-An initial [align](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#align) value of the panel
+An initial [align](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#align) value of the panel
 
 ### elementProvider
 

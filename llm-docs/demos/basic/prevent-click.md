@@ -1,6 +1,6 @@
 # Prevent Click
 
-The [`preventClickOnDrag`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#preventclickondrag) option prevents unintended click events that occur after dragging. This is especially important when panels contain links or buttons.
+The [`preventClickOnDrag`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#preventclickondrag) option prevents unintended click events that occur after dragging. This is especially important when panels contain links or buttons.
 
 Try dragging a panel and releasing to see the difference in click handling.
 
@@ -12,8 +12,8 @@ Try dragging a panel and releasing to see the difference in click handling.
 
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
-| [`preventClickOnDrag`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#preventclickondrag) | `boolean` | `true` | Prevent click events after drag |
-| [`preventDefaultOnDrag`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#preventdefaultondrag) | `boolean` | `false` | Prevent browser default behavior during drag |
+| [`preventClickOnDrag`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#preventclickondrag) | `boolean` | `true` | Prevent click events after drag |
+| [`preventDefaultOnDrag`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#preventdefaultondrag) | `boolean` | `false` | Prevent browser default behavior during drag |
 
 ### Comparison by Value
 
@@ -66,12 +66,12 @@ Since clicks fire even after drag, short drags may trigger unintended link navig
 ## Related Links
 
 ### Related Options
-- [`inputType`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#inputtype): Input device type settings
-- [`threshold`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#threshold): Minimum drag distance for panel transition
+- [`inputType`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#inputtype): Input device type settings
+- [`threshold`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#threshold): Minimum drag distance for panel transition
 
 ### Related Demos
-- [Input Type](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/input-type.md): Input device type restriction
-- [Threshold](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/threshold.md): Panel transition threshold settings
+- [Input Type](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/input-type.md): Input device type restriction
+- [Threshold](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/threshold.md): Panel transition threshold settings
 
 ## Code
 

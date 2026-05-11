@@ -1,12 +1,12 @@
 # CODE
 
-> Error codes of [FlickingError](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/FlickingError.md).
+> Error codes of [FlickingError](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/FlickingError.md).
 
 ## Description
 
 Each error code represents a specific error condition that can occur during Flicking's lifecycle. Use these codes to identify and handle errors programmatically.
 
-For detailed documentation of each error code, see [FlickingErrors](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingErrors.md).
+For detailed documentation of each error code, see [FlickingErrors](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingErrors.md).
 
 ## Type
 

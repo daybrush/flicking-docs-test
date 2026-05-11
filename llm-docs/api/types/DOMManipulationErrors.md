@@ -4,7 +4,7 @@
 
 ## Description
 
-These errors can occur when using DOM manipulation methods like [insert](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#insert), [append](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#append), [prepend](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#prepend), `replace`, or [remove](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#remove).
+These errors can occur when using DOM manipulation methods like [insert](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#insert), [append](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#append), [prepend](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#prepend), `replace`, or [remove](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#remove).
 
 Common scenarios:
 

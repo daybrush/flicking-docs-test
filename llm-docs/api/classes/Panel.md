@@ -80,13 +80,13 @@ Creates a new Panel instance
 
 **Type:** `PanelOptions["align"]`
 
-A value indicating where the [alignPosition](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md#alignposition) should be located at inside the panel element
+A value indicating where the [alignPosition](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md#alignposition) should be located at inside the panel element
 
 ### alignPosition
 
 **Type:** `number`
 
-Align position inside the panel where [Camera](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Camera.md)'s [alignPosition](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Camera.md#alignposition) inside viewport should be located at
+Align position inside the panel where [Camera](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Camera.md)'s [alignPosition](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Camera.md#alignposition) inside viewport should be located at
 
 *This property is read-only.*
 
@@ -150,7 +150,7 @@ Progress of movement between points that panel is completely invisible outside o
 
 **Type:** `number`
 
-Position of the panel, including [alignPosition](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md#alignposition)
+Position of the panel, including [alignPosition](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md#alignposition)
 
 *This property is read-only.*
 
@@ -174,7 +174,7 @@ Panel element's range of the bounding box
 
 **Type:** `boolean`
 
-A value indicating whether the panel's [remove](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#remove)d
+A value indicating whether the panel's [remove](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#remove)d
 
 *This property is read-only.*
 
@@ -192,7 +192,7 @@ A value indicating whether the panel's element is being rendered on the screen
 
 Cached size of the panel element
 
-**Remarks:** This is equal to [element](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md#element)'s `offsetWidth` if [horizontal](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#horizontal) is `true`, and `offsetHeight` else
+**Remarks:** This is equal to [element](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md#element)'s `offsetWidth` if [horizontal](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#horizontal) is `true`, and `offsetHeight` else
 
 *This property is read-only.*
 
@@ -202,7 +202,7 @@ Cached size of the panel element
 
 Panel's size including CSS `margin`
 
-**Remarks:** This value includes [element](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md#element)'s margin left/right if [horizontal](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#horizontal) is `true`, and margin top/bottom else
+**Remarks:** This value includes [element](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md#element)'s margin left/right if [horizontal](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#horizontal) is `true`, and margin top/bottom else
 
 *This property is read-only.*
 
@@ -238,7 +238,7 @@ Percentage of area where panel is visible in the viewport
 contains(element: HTMLElement): boolean
 ```
 
-Check whether the given [element](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md#element) is inside of this panel's element
+Check whether the given [element](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md#element) is inside of this panel's element
 
 **Parameters:**
 
@@ -254,7 +254,7 @@ Check whether the given [element](https://cjw783.github.io/flicking-docs-test/ll
 destroy(): void
 ```
 
-Reset internal state and set [removed](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md#removed) to `true`
+Reset internal state and set [removed](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md#removed) to `true`
 
 **Remarks:** After calling this method, the panel should no longer be used.
 
@@ -264,11 +264,11 @@ Reset internal state and set [removed](https://cjw783.github.io/flicking-docs-te
 focus(duration?: number): Promise<void>
 ```
 
-Move [Camera](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Camera.md) to this panel
+Move [Camera](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Camera.md) to this panel
 
 **Parameters:**
 
-- `duration` (`number`) - Duration of the animation (unit: ms). Defaults to [duration](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#duration)
+- `duration` (`number`) - Duration of the animation (unit: ms). Defaults to [duration](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#duration)
 
 **Returns:** A Promise which will be resolved after reaching the panel
 
@@ -276,11 +276,11 @@ Move [Camera](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/C
 
 **Throws:**
 
-- [MovementErrors](https://cjw783.github.io/flicking-docs-test/llm-docs/api/types/MovementErrors.md)
+- [MovementErrors](https://daybrush.github.io/flicking-docs-test/llm-docs/api/types/MovementErrors.md)
 
 **Fires:**
 
-- [MovementEvents](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/MovementEvents.md)
+- [MovementEvents](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/MovementEvents.md)
 
 ### includePosition
 
@@ -288,13 +288,13 @@ Move [Camera](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/C
 includePosition(pos: number, includeMargin?: boolean): boolean
 ```
 
-Check whether the given position is inside of this panel's [range](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md#range)
+Check whether the given position is inside of this panel's [range](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md#range)
 
 **Parameters:**
 
 - `pos` (`number`) - A position to check
 
-- `includeMargin` (`boolean`) - Include [margin](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md#margin) to the range
+- `includeMargin` (`boolean`) - Include [margin](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md#margin) to the range
 
 **Returns:** A Boolean value indicating whether the given position is included in the panel range
 
@@ -312,7 +312,7 @@ Check whether the given range is fully included in this panel's area (inclusive)
 
 - `max` (`number`) - Maximum value of the range to check
 
-- `includeMargin` (`boolean`) - Include [margin](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md#margin) to the range
+- `includeMargin` (`boolean`) - Include [margin](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Panel.md#margin) to the range
 
 **Returns:** A Boolean value indicating whether the given range is fully included in the panel range
 
@@ -342,7 +342,7 @@ Get next(`index + 1`) panel.
 
 **Returns:** The next panel
 
-**Remarks:** When the next panel does not exist, this will return `null` instead If the [circular](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#circularenabled) is enabled, this will return the first panel if called from the last panel
+**Remarks:** When the next panel does not exist, this will return `null` instead If the [circular](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#circularenabled) is enabled, this will return the first panel if called from the last panel
 
 ### prev
 
@@ -354,7 +354,7 @@ Get previous(`index - 1`) panel.
 
 **Returns:** The previous panel
 
-**Remarks:** When the previous panel does not exist, this will return `null` instead If the [circular](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#circularenabled) is enabled, this will return the last panel if called from the first panel
+**Remarks:** When the previous panel does not exist, this will return `null` instead If the [circular](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#circularenabled) is enabled, this will return the last panel if called from the first panel
 
 ### resize
 

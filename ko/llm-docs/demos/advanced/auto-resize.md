@@ -1,6 +1,6 @@
 # Auto Resize
 
-Control how viewport size changes are detected using the [`autoResize`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#autoresize) and [`useResizeObserver`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#useresizeobserver) options.
+Control how viewport size changes are detected using the [`autoResize`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#autoresize) and [`useResizeObserver`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#useresizeobserver) options.
 
 Try changing the container width with the slider and compare the resize response difference between the two carousels.
 
@@ -12,8 +12,8 @@ Try changing the container width with the slider and compare the resize response
 
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
-| [`autoResize`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#autoresize) | `boolean` | `true` | Automatically call `resize()` when viewport size changes |
-| [`useResizeObserver`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#useresizeobserver) | `boolean` | `true` | Whether to use ResizeObserver (falls back to window resize if false) |
+| [`autoResize`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#autoresize) | `boolean` | `true` | Automatically call `resize()` when viewport size changes |
+| [`useResizeObserver`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#useresizeobserver) | `boolean` | `true` | Whether to use ResizeObserver (falls back to window resize if false) |
 
 ### Option Combination Comparison
 
@@ -49,13 +49,13 @@ When `useResizeObserver: true` (default), the `ResizeObserver` API is used to de
 ## Related Links
 
 ### Related Options
-- [`autoResize`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#autoresize): Auto resize
-- [`useResizeObserver`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#useresizeobserver): Use ResizeObserver
+- [`autoResize`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#autoresize): Auto resize
+- [`useResizeObserver`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#useresizeobserver): Use ResizeObserver
 
 ### Related Demos
-- [Resize Debounce](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/advanced/resize-debounce.md): Control resize call frequency
-- [Optimize Size Update](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/advanced/optimize-size-update.md): Skip unnecessary axis changes
-- [Observe Panel Resize](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/advanced/observe-panel-resize.md): Detect panel size changes
+- [Resize Debounce](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/advanced/resize-debounce.md): Control resize call frequency
+- [Optimize Size Update](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/advanced/optimize-size-update.md): Skip unnecessary axis changes
+- [Observe Panel Resize](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/advanced/observe-panel-resize.md): Detect panel size changes
 
 ## Code
 

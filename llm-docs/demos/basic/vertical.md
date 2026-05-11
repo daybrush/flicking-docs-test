@@ -1,6 +1,6 @@
 # Vertical
 
-The [`horizontal`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#horizontal) option sets the direction of panel movement. When `true`, panels move horizontally (left/right); when `false`, panels move vertically (up/down).
+The [`horizontal`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#horizontal) option sets the direction of panel movement. When `true`, panels move horizontally (left/right); when `false`, panels move vertically (up/down).
 
 
 
@@ -10,7 +10,7 @@ The [`horizontal`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/inte
 
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
-| [`horizontal`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#horizontal) | `boolean` | `true` | Panel movement direction (`true`: horizontal, `false`: vertical) |
+| [`horizontal`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#horizontal) | `boolean` | `true` | Panel movement direction (`true`: horizontal, `false`: vertical) |
 
 ### Comparison by Value
 
@@ -57,13 +57,13 @@ In vertical mode, up/down dragging may conflict with page scrolling. If necessar
 ## Related Links
 
 ### Related Options
-- [`adaptive`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#adaptive): Adjust viewport to panel height (horizontal: true only)
-- [`nested`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#nested): Nested Flicking behavior
-- [`inputType`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#inputtype): Input type settings
+- [`adaptive`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#adaptive): Adjust viewport to panel height (horizontal: true only)
+- [`nested`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#nested): Nested Flicking behavior
+- [`inputType`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#inputtype): Input type settings
 
 ### Related Demos
-- [Nested](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/nested.md): Nested Flicking (nested not needed for different directions)
-- [Adaptive](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/adaptive.md): Panel height adaptation
+- [Nested](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/nested.md): Nested Flicking (nested not needed for different directions)
+- [Adaptive](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/adaptive.md): Panel height adaptation
 
 ## Code
 

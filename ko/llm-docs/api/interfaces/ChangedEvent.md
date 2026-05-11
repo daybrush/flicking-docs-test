@@ -46,4 +46,4 @@ Previous active panel
 
 ## See Also
 
-- [WillChangeEvent](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/WillChangeEvent.md) - Fired BEFORE the panel change starts
+- [WillChangeEvent](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/WillChangeEvent.md) - Fired BEFORE the panel change starts

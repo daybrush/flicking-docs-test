@@ -1,6 +1,6 @@
 # Default Index
 
-The [`defaultIndex`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#defaultindex) option sets the index of the panel to display on initialization. Specified as a 0-based index.
+The [`defaultIndex`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#defaultindex) option sets the index of the panel to display on initialization. Specified as a 0-based index.
 
 
 
@@ -10,7 +10,7 @@ The [`defaultIndex`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/in
 
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
-| [`defaultIndex`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#defaultindex) | `number` | `0` | Initial active panel index (0-based) |
+| [`defaultIndex`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#defaultindex) | `number` | `0` | Initial active panel index (0-based) |
 
 ### Comparison by Value
 
@@ -55,12 +55,12 @@ If you specify an index larger than the number of panels, it moves to the last p
 ## Related Links
 
 ### Related Options
-- [`circular`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circular): Infinite loop mode
-- [`align`](https://cjw783.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#align): Panel alignment
+- [`circular`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#circular): Infinite loop mode
+- [`align`](https://daybrush.github.io/flicking-docs-test/llm-docs/api/interfaces/FlickingOptions.md#align): Panel alignment
 
 ### Related Demos
-- [Circular](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/circular.md): Infinite loop mode
-- [Alignment](https://cjw783.github.io/flicking-docs-test/llm-docs/demos/basic/alignment.md): Panel alignment
+- [Circular](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/circular.md): Infinite loop mode
+- [Alignment](https://daybrush.github.io/flicking-docs-test/llm-docs/demos/basic/alignment.md): Panel alignment
 
 ## Code
 

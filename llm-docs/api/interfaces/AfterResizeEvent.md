@@ -1,6 +1,6 @@
 # AfterResizeEvent
 
-> Event that fires when Flicking's [resize](https://cjw783.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#resize) is called, after updating the sizes of panels and viewport.
+> Event that fires when Flicking's [resize](https://daybrush.github.io/flicking-docs-test/llm-docs/api/classes/Flicking.md#resize) is called, after updating the sizes of panels and viewport.
 
 ## Properties
 
